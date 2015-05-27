@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="aexITLS38FdIRzwj25OVWxm87rpa9l-UV0URTyC9cTs" />
+  <title>
+    
+    
+  </title>
+  <link rel="stylesheet" href="../css/site.css">
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  
+  <link rel="alternate" type="application/atom+xml" title="RSS Feed for Kun Wang's blog" href="/feed.xml" />
+
+  
+
+  
+
+  
+</head>
+
+<body>
+  <div class="top-bar">
+  </div>
+
+  <div class="header-container">
+    <header class="inner">
+      
+      <nav>
+        <a class="" href="/">Home</a>
+        <a class="" href="/research/">Research</a>
+        <a class="" href="/blog/">Blog</a>
+        <a class="" href="/interest/">Interests</a>
+        <a href="https://github.com/kun-wang">Github</a>
+      </nav>
+      
+
+      <!-- ----------------------------------------------------- -->
+      <!-- My profile ------------------------------------------ -->
+      <!-- ----------------------------------------------------- -->
+      <div class="pull-right right logo">
+        <div class="name">
+          <a href="/">Kun Wang</a><br />
+          <small>
+            <em>
+              
+                <a href="/">Ph.D. Cand.</a>
+              
+            </em>
+          </small>
+        </div>
+        <img class="avatar" src="/images/kun-wang.jpg" alt="My profile picture" />
+      </div>
+      <div class="clear"></div>
+    </header>
+    <div class="clear"></div>
+  </div>
+
+  <?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kun Wang - Blog</title>
+    <description>On Quantum Computation, Quantum Information, Quantum Programming and Computation Theory. </description>
+    <link>http://kun-wang.github.io/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to Setup Jekyll in Windows</title>
+      <description>&lt;p&gt;With such a trial and error, I successfully configured the jekyll.
+Now I write down the steps I have taken.&lt;/p&gt;
+
+&lt;p&gt;Step1. Download Jekyll.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 26 May 2015 00:00:00 +0800</pubDate>
+      <link>/blog/setup-jekyll-in-windows.html</link>
+      <guid isPermaLink="true">/blog/setup-jekyll-in-windows.html</guid>
+    </item>
+    
+    <item>
+      <title>Papers已读列表</title>
+      <description>&lt;p&gt;对本小子读过的文章做个已读列表，方便自己查阅那些文章自己已读。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ol&gt;
+&lt;li&gt;BING: Binarized Normed Gradients for Objectness Estimation at 300fp. CVPR 2014&lt;/li&gt;
+&lt;li&gt;Spectral Rotation versus K-Means in Spectral Clustering. AAAI 2013&lt;/br&gt;
+对于谱聚类公式具体的推导及理解，主要查阅了下面几篇博文，觉得很不错，自备梯子：
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ranger.uta.edu/%7Echqding/Spectral/&quot;&gt;Spectral Clustering&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/sparkwen/p/3155850.html&quot;&gt;谱聚类算法(Spectral Clustering)&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://chunqiu.blog.ustc.edu.cn/?p=505&quot;&gt;谱聚类&lt;/a&gt;这篇博文主要介绍了Matlab谱聚类的一些工具。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Large-Scale Video Hashing via Structure Learning. ICCV 2013&lt;/br&gt;
+用Hashing方法做视频检索，目标函数式第2项用21范数对特征进行选择，以获取可判别性局部视觉共性；目标函数式第3项用无穷范数对前后帧进行约束，以使前后帧具有相似的编码，即所谓的时间一致性。传统的Hashing方法在进行视频检索时，是直接拿过来就用的，并没有考虑到视频具有的特性，目标函数式第三项便是结合视频独有的特性进行考虑的。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <pubDate>Sat, 10 May 2014 00:00:00 +0800</pubDate>
+      <link>/blog/papers-I-have-read.html</link>
+      <guid isPermaLink="true">/blog/papers-I-have-read.html</guid>
+    </item>
+    
+    <item>
+      <title>Jekyll写作技巧小札</title>
+      <description>&lt;p&gt;今天本小子又发现新大陆了，&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;jekyllrb&lt;/a&gt;,对应的中文文档为&lt;a href=&quot;http://jekyllcn.com/&quot;&gt;jekyllcn&lt;/a&gt;,感谢这帮帅小伙助力开源，世界因开源精神更美好。本小子通读了翻译的文档，发觉关于Jekyll的很多知识点本小子都没注意到，所以对那份文档做些读后笔记，方便需用之时查询。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&quot;代码编辑&quot;&gt;代码编辑&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;代码高亮&lt;/strong&gt;
+本小子之前在博文里贴整段代码时采用的都是三个点加语言类型，今天读文档时，发觉还可以采用Liquid 标记：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;{% highlight python %}
+def process_image(imagename,resultname,params=&amp;quot;--edge-thresh 10 
+                  --peak-thresh 5&amp;quot;):
+    &amp;quot;&amp;quot;&amp;quot; process an image and save the results in a file&amp;quot;&amp;quot;&amp;quot;
+
+    if imagename[-3:] != &amp;#39;pgm&amp;#39;:
+        #create a pgm file
+        im = Image.open(imagename).convert(&amp;#39;L&amp;#39;)
+        im.save(&amp;#39;tmp.pgm&amp;#39;)
+        imagename = &amp;#39;tmp.pgm&amp;#39;
+
+    cmmd = str(&amp;quot;sift &amp;quot;+imagename+&amp;quot; --output=&amp;quot;+resultname+
+                &amp;quot; &amp;quot;+params)
+    os.system(cmmd)
+    print &amp;#39;processed&amp;#39;, imagename, &amp;#39;to&amp;#39;, resultname
+{% endhighlight %}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;输出的结果为：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;process_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imagename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resultname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;--edge-thresh 10 &lt;/span&gt;
+                  &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;peak&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;thresh&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;):&lt;/span&gt;
+    &lt;span class=&quot;sd&quot;&gt;&amp;quot;&amp;quot;&amp;quot; process an image and save the results in a file&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;imagename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;pgm&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;c&quot;&gt;#create a pgm file&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;im&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imagename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;convert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;L&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;im&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;tmp.pgm&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;imagename&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;tmp.pgm&amp;#39;&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;cmmd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;sift &amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imagename&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot; --output=&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resultname&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+                &lt;span class=&quot;s&quot;&gt;&amp;quot; &amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cmmd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;processed&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;imagename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;to&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;resultname&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;代码显示行数&lt;/strong&gt;
+要想在代码前面显示代码的行数，可以添加关键字&lt;code&gt;linenos&lt;/code&gt;,这样完整的高亮开始标记将会是:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;{% highlight python linenos %}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;代码片段包含类Liquid语法&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;utf-8&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;{% block title %}{% endblock %}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;content&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        {% block content %}
+        {% endblock %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;这是在&lt;a href=&quot;http://yuanyong.org/blog/use-django-bulding-a-blog-three.html&quot;&gt;Django开发简易博客三&lt;/a&gt;中遇到的一个问题，由于上面代码中含类Liquid语法，写完push上去后，github一直发邮件报错，查阅资料后发觉是上面代码片段中包含有类Liquid语法。可以通过加rawtag解决这个问题。&lt;/p&gt;
+
+&lt;p&gt;此外，像&lt;a href=&quot;http://yuanyong.org/blog/use-django-bulding-a-blog-three.html&quot;&gt;Django开发简易博客三&lt;/a&gt;中{{STATIC_URL}}也要用raw来进行屏蔽。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&quot;预定义的全局变量&quot;&gt;预定义的全局变量&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;permalink&lt;/code&gt;：如果你需要让你的博客中的URL地址不同于默认值 &lt;code&gt;/year/month/day/title.html&lt;/code&gt; 这样，那么当你设置这个变量后，就会使用最终的URL地址。本小子&lt;code&gt;HOME&lt;/code&gt;和文章的头部已经有时间戳了，所以再&lt;code&gt;url&lt;/code&gt;里显得有点多余，而且本小子比较喜欢简洁的&lt;code&gt;url&lt;/code&gt;,所以本小子的博客采用的是：&lt;code&gt;permalink: /:title.html&lt;/code&gt;。&lt;/p&gt;
+</description>
+      <pubDate>Fri, 14 Mar 2014 00:00:00 +0800</pubDate>
+      <link>/blog/jekyll-writing-notes.html</link>
+      <guid isPermaLink="true">/blog/jekyll-writing-notes.html</guid>
+    </item>
+    
+  </channel>
+</rss>
+  <div class="separator"></div>
+
+  <!-- ----------------------------------------------------- -->
+  <!-- Links in the bottom --------------------------------- -->
+  <!-- ----------------------------------------------------- -->
+  <div  style="border-bottom: 1px solid #ddd"></div>
+    <footer>
+<!--     <p class="linkings">
+        Friends: 
+        <a href="http://iamjoking.github.io/">Xiaodong Wang</a>&nbsp&nbsp&nbsp&nbsp
+        <a href="http://raphael-mou.github.io/">Lichao Mou</a>&nbsp&nbsp&nbsp&nbsp
+        <a href="http://haobo-lv.github.io/">Haobo Lv</a>&nbsp&nbsp&nbsp&nbsp
+    </p> -->
+<!--     <p class="linkings">
+        Database: <a href="http://horatio.cs.nyu.edu/mit/tiny/data/index.html">Tiny</a>&nbsp&nbsp&nbsp&nbsp<a href="http://www.vision.caltech.edu/Image_Datasets/Caltech256/">Caltech256</a>&nbsp&nbsp&nbsp&nbsp<a href="http://press.liacs.nl/mirflickr/">MIRFLICKR-1M</a>&nbsp&nbsp&nbsp&nbsp<a href="http://cs.joensuu.fi/sipu/datasets/">Clustering datasets</a>&nbsp&nbsp&nbsp&nbsp<a href="http://www.vis.uky.edu/~stewe/ukbench/">Ukbench</a>&nbsp&nbsp&nbsp&nbsp<a href="http://www.imageclef.org/">ImageCLEF</a>&nbsp&nbsp&nbsp&nbsp<a href="http://lear.inrialpes.fr/~jegou/data.php#holidays/">INRIA</a>
+    </p> -->
+<!--     <p class="linkings">
+        Utils: <a href="http://rogerioferis.com/VisualRecognitionAndSearch2014/Resources.html">rogerioferis</a>&nbsp&nbsp&nbsp&nbsp<a href="http://caffe.berkeleyvision.org/">Caffe</a>&nbsp&nbsp&nbsp&nbsp<a href="http://scikit-learn.org/stable/index.html">scikit-learn</a>&nbsp&nbsp&nbsp&nbsp<a href="http://www.astroml.org/index.html">AstroML</a></a>&nbsp&nbsp&nbsp&nbsp<a href="http://scikit-image.org/">scikit-image</a>
+    </p> -->
+    <p>
+      Made with <a href="http://jekyllrb.com/">Jekyll</a>,
+      hosted on <a href="https://github.com/kun-wang/kun-wang.github.io">Github Pages</a>. Theme inspired by <a href="http://willard-yuan.github.io">Yuan Yong</a>.
+    </p
+    </p>
+      <a href="http://www.easycounter.com/"><img src="http://www.easycounter.com/counter.php?willard"border="0" alt="Website Hit Counter"></a> since June 2015.
+    </p>
+<!--     <ul class="links">
+      li>
+        <a href="https://github.com/willard-yuan" title="See my code on GitHub">
+          <i class="icon-github"></i>
+        </a>
+      </li>	  
+      <li>
+        <a href="https://twitter.com/intent/follow?screen_name=yongyuan001" title="Follow me on Twitter">
+          <i class="icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/sebastiensaunier" title="Connect with me on LinkedIn">
+          <i class="icon-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://plus.google.com/+SebastienSaunier?rel=author" title="I need this link for authorship reasons">
+          <i class="icon-google-plus"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://pinboard.in/u:ssaunier" title="Browse my bookmarks about Programming">
+          <i class="icon-bookmarks"></i>
+        </a>
+      </li>
+      <li>
+        <a href="/feed.xml" title="Subscribe to my blog with RSS">
+          <i class="icon-feed"></i>
+        </a>
+      </li
+    </ul> -->
+  </footer>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-40867989-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    /*!
+     * http://github.com/ssaunier/track-outbound-links
+     * Copyright 2013 Sébastien Saunier
+     * @license MIT
+     */
+    !function(e,t){function n(){for(var n=t.getElementsByTagName("a"),a=[],r=0;r<n.length;++r){var o=n[r];o.host!=e.location.host&&a.push(o)}return a}function a(n){for(var a=n.srcElement||n.target;a&&("undefined"==typeof a.tagName||"a"!=a.tagName.toLowerCase()||!a.href);)a=a.parentNode;a&&a.href&&(e._gaq&&_gaq.push(["_trackEvent","Outbound link","Click",a.href]),(!a.target||a.target.match(/^_(self|parent|top)$/i))&&(setTimeout(function(){t.location.href=a.href},150),n.preventDefault?n.preventDefault():n.returnValue=!1))}e.addEventListener("load",function(){var e=n();for(var t in e)e[t].addEventListener("click",a)})}(window,document);
+    var links = document.links;
+    for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+       if (links[i].hostname != window.location.hostname) { links[i].target = '_blank'; }
+    }
+
+    /*
+     * Detect if we are included in an iframe => move.
+     */
+    if (window.top !== window.self
+        && !window.self.location.href.match(/headsha\.re/))
+    {
+      window.top.location.replace(window.self.location.href);
+    }
+  </script>
+
+</body>
+</html>
