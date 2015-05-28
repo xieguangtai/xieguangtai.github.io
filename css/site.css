@@ -105,7 +105,7 @@ table td, table th {
 /* Common */
 
 a {
-  color: #e0115f;
+  color: #e0115f;     /* Set the color of links. Optional: #3052b3 blue, #e0115f, pink*/
   text-decoration: none;
 }
 
@@ -287,7 +287,6 @@ nav a {
   display: inline-block;
   margin-right: 1.2em;
   padding-bottom: 0.2em;
-  /*font-weight: normal;*/
   font-weight: thick;
   border-bottom: 3px solid transparent;
   font-size: 100%;
@@ -449,9 +448,7 @@ article h1 {
 .convinced { margin: 6em 0 4em 0;}
 
 /*****************************************************************************/
-/*
 /* Posts
-/*
 /*****************************************************************************/
 
 /* 文章代码格式 */
