@@ -57,6 +57,8 @@
     <div class="clear"></div>
   </div>
 
+
+
   <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -97,6 +99,8 @@ Now I write down the steps I have taken.&lt;/p&gt;
     
   </channel>
 </rss>
+
+
 
 <div class="separator"></div>  
 <!-- ----------------------------------------------------- -->
