@@ -7,45 +7,79 @@ category: research
 
 <div class="inner">
 
-<h1>Papers</h1>
+<!-- -------------------------------------------------------------- -->
+<!-- Papers ------------------------------------------------------- -->
+<!-- -------------------------------------------------------------- -->
+<h1>Papers</h1><a name="papers"></a>
 
-{% for publication in site.data.publication %}
+<ul>
+{% for paper in site.data.papers %}
   <div>
-    <p>{{ publication.author }}. {{ publication.title }}. {{ publication.publisher }}, {{ publication.year }}.</p><p>{{ publication.abstract }}</p>
+    <li> 
+	    <p>{{ paper.author }}. <strong><i>{{ paper.title }}</i></strong>. {{ paper.publisher }}, {{ paper.year }}. {{ paper.notes }}. 
+	    <u><a href="{{ paper.url }}">{{ paper.supplement }}</a></u></p>
+	</li>
   </div>
 {% endfor %}
+</ul>
 
-<h1>Talks</h1>
+<hr></hr>
 
-<div>
-Here goes my given talks.
-</div>
+<!-- -------------------------------------------------------------- -->
+<!-- Talks -------------------------------------------------------- -->
+<!-- -------------------------------------------------------------- -->
+<h1>Talks</h1><a name="talks"></a>
 
-<h1>Thesis</h1>
+<ul>
+{% for talk in site.data.talks %}
+  <div>
+    <li> 
+	    <p><strong><i>{{ talk.title }}</i></strong>, {{ talk.placedate }}
+	    <u><a href="{{ talk.url }}">{{ talk.supplement }}</a></u></p>
+	</li>
+  </div>
+{% endfor %}
+</ul>
 
-<div>
-Here goes my written thesis.
-</div>
+<hr></hr>
 
-<h1>Research Statement</h1>
+<!-- -------------------------------------------------------------- -->
+<!-- Research Statement ------------------------------------------- -->
+<!-- -------------------------------------------------------------- -->
+<h1>Research Statement</h1><a name="statement"></a>
 
 <div>
 Here goes my research statement.
 </div>
 
-<h1>CV</h1>
+<hr></hr>
+
+<!-- -------------------------------------------------------------- -->
+<!-- Resume ------------------------------------------------------- -->
+<!-- -------------------------------------------------------------- -->
+<h1>Resume</h1><a name="resume"></a>
 
 <div>
-Here is my CV.
+Here is my Resume.
 </div>
 
-<h1>Contact</h1>
+<hr></hr>
+
+<!-- -------------------------------------------------------------- -->
+<!-- Contact ------------------------------------------------------ -->
+<!-- -------------------------------------------------------------- -->
+<h1>Contact</h1><a name="contact"></a>
 
 <div>
     Interested? Here's my <a href="https://github.com/kun-wang">Github</a> and <a href="http://kun-wang.github.io/files/kunwang-resume.pdf">resume</a>, get in touch.
 </div>
 
-<h1>Resources</h1>
+<hr></hr>
+
+<!-- -------------------------------------------------------------- -->
+<!-- Resources ---------------------------------------------------- -->
+<!-- -------------------------------------------------------------- -->
+<h1>Resources</h1><a name="resource"></a>
 
 <div>
 Here goes a collection of resources.

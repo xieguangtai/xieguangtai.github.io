@@ -1,0 +1,33 @@
+#####################################################################
+# This is the template for talks
+#####################################################################
+# - title: [talk title]
+# placedate: [place and date]
+# url: [download url] 
+# supplement: [talk supplement type, be 'Slide', 'Lecture', 'Broke' or 'Link'] 
+
+#####################################################################
+- title: Introduction to Three State Discrete Quantum Walks
+  placedate: Seminar held by quantum computing group and quantum optics group of NJU, January 20, 2015.  
+  supplement: Broke
+  
+- title: Introduction to One-Way Quantum Computation
+  placedate: Workshop held by quantum optics group of NJU, December 27, 2014.
+  url: /files/talks/20141227-one-way-quantum-computation.pdf
+  supplement: Slide 
+
+- title: One Dimensional Discrete Quantum Walk
+  placedate: Workshop held by Hasso Plattner Institute, Potsdam, Germany, June 25, 2014.
+  url: /files/talks/20140625-one-dimensional-quantum-walk.pdf
+  supplement: Slide 
+
+- title: Introduction to Quantum Cellular Automata
+  placedate: Seminar held by quantum computing group and quantum optics group of NJU, April 11, 2014.
+  url: /files/talks/20140411-quantum-cellular-automata.pdf
+  supplement: Slide 
+
+- title: Quantum Walks on Element Disctinctness Problem
+  placedate: Course of Advance in Computer Science and Technology, CS, NJU, November 27, 2013.
+  url: /files/talks/20131107-element-disctinctnessslides.pptx
+  supplement: Slide 
+

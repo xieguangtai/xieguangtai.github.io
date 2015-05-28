@@ -1,0 +1,40 @@
+#####################################################################
+# This is the template for paper
+# - author: [author list]
+# url: [link to the papers]
+# title: [paper title]
+# role: [description]
+# year: [year]
+# award: [Best Paper Runner-Up Award]
+# publisher: [journal name]
+# supplement: [paper supplement type, be 'Slide', 'Paper', or 'Link'] 
+# # abstract: >
+# #  Approximate nearest neighbor (ANN) search is becoming
+# #  an increasingly important technique in large-scale problems.
+# #  Recently many approaches have been developed due to fast
+# #  query and low storage cost. Although most of them have realized
+# #  the importance of the data structure, they neglected
+# #  the sparse relationship of the data. To build a balance between
+# #  the adjusted covariance matrix and the minimum reconstruction
+# #  error of data points, this paper proposes a novel
+# #  method based on sparse reconstruction to learn more compact
+# #  binary codes under l21-norm constraint. Experiments
+# #  demonstrate that the proposed method, named as sparse
+# #  reconstruction hashing, outperforms several other state-ofthe-
+# #  art methods when tested on a few benchmark datasets.
+#####################################################################
+- author: Kun Wang, Nan Wu, and Fangmin Song
+  url: /files/papers/nctcs2015.pdf
+  title: On Four Non-Computable Decision Problems
+  year: 2015
+  notes: Submission succeed, reviewing
+  publisher: National Conference on Theoretical Computer Science (NCTCS)
+  supplement: Article
+
+- author: Nan Wu, Kun Wang, Haixing Hu, Fangmin Song and Xiangdong Li
+  url: http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=2299744
+  title: A Novel Quantum Random Number Generation Algorithm Used by Smartphone Camera
+  year: 2015
+  notes: Baltimore, Maryland, United States 
+  publisher: Proc. SPIE 9500, Quantum Information and Computation XIII
+  supplement: Link
