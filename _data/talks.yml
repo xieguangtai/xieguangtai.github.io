@@ -7,10 +7,31 @@
 # supplement: [talk supplement type, be 'Slide', 'Lecture', 'Broke' or 'Link'] 
 
 #####################################################################
+- title: CNOT Gate Implemented by Quantum Teleportation
+  placedate: Seminar held by quantum computing group and quantum optics group of NJU, April 24, 2015.
+  url: /files/talks/20150424-quantum-teleportation-cnot-gate.pdf
+  supplement: Slide
+
+- title: Algorithms based on Quantum Walk
+  placedate: Seminar held by quantum computing group and quantum optics group of NJU, April 10, 2015.
+  supplement: Broke
+
+- title: Introduction to Quantum Algorithms - Grover Algorithm
+  placedate: Seminar held by quantum computing group of NJU, March 12, 2015.
+  supplement: Broke
+
+- title: Introduction to Quantum Algorithms - Simon and Bernstein-Vazirani Algorithm
+  placedate: Seminar held by quantum computing group of NJU, February 4, 2015.
+  supplement: Broke
+
+- title: Introduction to Quantum Algorithms - Deutsch and Deutsch-Jozsa Algorithm
+  placedate: Seminar held by quantum computing group of NJU, January 28, 2015.
+  supplement: Broke
+
 - title: Introduction to Three State Discrete Quantum Walks
   placedate: Seminar held by quantum computing group and quantum optics group of NJU, January 20, 2015.  
   supplement: Broke
-  
+
 - title: Introduction to One-Way Quantum Computation
   placedate: Workshop held by quantum optics group of NJU, December 27, 2014.
   url: /files/talks/20141227-one-way-quantum-computation.pdf

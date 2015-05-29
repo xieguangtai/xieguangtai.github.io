@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="aexITLS38FdIRzwj25OVWxm87rpa9l-UV0URTyC9cTs" />
   <title>
     
     
@@ -66,6 +65,97 @@
     <description>On Quantum Computation, Quantum Information, Quantum Programming and Computation Theory. </description>
     <link>http://kun-wang.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Turing Machine Simulator</title>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Copyright 2014, Kun Wang (&lt;a href=&quot;mailto:nju.wangkun@gmail.com&quot;&gt;nju.wangkun@gmail.com&lt;/a&gt;).&lt;br&gt;
+Department of Computer Science &amp;amp; Technology, Nanjing University, China.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;This is a Turing machine simulator based on a nice Java Turing machine simulator from &lt;a href=&quot;http://introcs.cs.princeton.edu/java/74turing/&quot;&gt;http://introcs.cs.princeton.edu/java/74turing/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The syntax of Turing machine is totally from the book of
+&amp;quot;&lt;em&gt;Introduction to Models of Computation&lt;/em&gt;&amp;quot; by professor Fangmin Song, which you can buy from &lt;a href=&quot;http://www.amazon.cn/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E7%94%9F%E7%B3%BB%E5%88%97%E6%95%99%E6%9D%90-%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B%E5%AF%BC%E5%BC%95-%E5%AE%8B%E6%96%B9%E6%95%8F/dp/B008N6TA4U/ref=sr_1_1?ie=UTF8&amp;amp;qid=1421406550&amp;amp;sr=8-1&amp;amp;keywords=%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B%E5%AF%BC%E5%BC%95&quot;&gt;Amazon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;bin&lt;/code&gt;&lt;br&gt;
+Contains the compiled .class files. The &amp;quot;images&amp;quot; sub-directory is very important as it stores the required images for the simulator. In the next update, I will try to move it out of the &amp;quot;bin&amp;quot; directory.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;files&lt;/code&gt;&lt;br&gt;
+Contains the program description for specific operations. Examples include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Adder.tur&lt;/strong&gt;: a program for adding two non-negative integers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;copyString.tur&lt;/strong&gt;: a program for copy a string of &lt;em&gt;11...11&lt;/em&gt;s.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In these two files, I gave a detail description of the requirements for writing a program that can be accepted by the simulator.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;src&lt;/code&gt;&lt;br&gt;
+Source files of the simulator.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;All of the above three directories are required for running the simulator.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;introduction.pptx&lt;/code&gt;&lt;br&gt;
+Actually, the Turing machine simuator is a project for the third assignment of the course &lt;strong&gt;Software Architecture&lt;/strong&gt;. &lt;code&gt;introduction.pptx&lt;/code&gt; is my presentation on the course, which introduces basic ideas of the project, and the design patterns that have been applied.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;TMSimulator.7z&lt;/code&gt;&lt;br&gt;
+The packed runnable jar, with necessary config files.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use&quot;&gt;How to Use&lt;/h2&gt;
+
+&lt;p&gt;There are two different ways to setup the simulator.&lt;/p&gt;
+
+&lt;h3 id=&quot;method-1:-running-the-jar-file&quot;&gt;Method 1: Running the jar file&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Step1.&lt;/em&gt; Download the repository.&lt;br&gt;
+&lt;em&gt;Step2.&lt;/em&gt; Unpack &lt;code&gt;TMSimulator.7z&lt;/code&gt;.&lt;br&gt;
+&lt;em&gt;Step3.&lt;/em&gt; Click the &lt;code&gt;run.bat&lt;/code&gt; batch file.&lt;br&gt;
+&lt;strong&gt;Warnning!&lt;/strong&gt; The &lt;code&gt;files&lt;/code&gt; and &lt;code&gt;TMSimulator.jar&lt;/code&gt; must be in the same directory with &lt;code&gt;run.bat&lt;/code&gt;. &lt;/p&gt;
+
+&lt;h3 id=&quot;method-2:-importing-the-project-into-eclipse&quot;&gt;Method 2: Importing the project into eclipse&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Step1.&lt;/em&gt; Download the repository.&lt;br&gt;
+&lt;em&gt;Step2.&lt;/em&gt; Import into eclipse.&lt;br&gt;
+&lt;em&gt;Step3.&lt;/em&gt; Run it!  &lt;/p&gt;
+
+&lt;h2 id=&quot;problems-list&quot;&gt;Problems List&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 1&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem Description:&lt;/strong&gt; When exporting the project as a runnable jar (TMSimulator.jar is exported in this way), images cannot be load, as the jar cannot find the images.&lt;br&gt;
+&lt;strong&gt;Current Solution:&lt;/strong&gt; This problem happens because the exporting system hasn&amp;#39;t add the necessary files in &lt;code&gt;bin/images&lt;/code&gt; into the jar file. There are two solutions:
+1. Modify the code to add the files.
+2. Add the &lt;code&gt;images&lt;/code&gt; directory into the jar file manually.
+Due to my laziness, I take the latter one. It deserves better solution.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 2&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem Description:&lt;/strong&gt; The input and output have been restricted into binary values, which are required by the simulator yet are not that human friendly.&lt;br&gt;
+&lt;strong&gt;Possible Solution:&lt;/strong&gt; One encode module to translate the input decimal integers into corresponding bianry values, then feeding them into the simulator. One decode module to translate the output bianry value into corresponding decimal integer, then displaying out.&lt;/p&gt;
+
+&lt;h2 id=&quot;more-on-the-simulator&quot;&gt;More on the Simulator&lt;/h2&gt;
+
+&lt;p&gt;If you have any ideas on the project, please feel free to let me know. You can try following ways to keep us in touch.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Comment on this post. This is highly recommended.&lt;/li&gt;
+&lt;li&gt;Fork the project, and push the new version to me.&lt;/li&gt;
+&lt;li&gt;Email me. The email can be found &lt;a href=&quot;/research#contact&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <pubDate>Fri, 29 May 2015 00:00:00 +0800</pubDate>
+      <link>/blog/turing-machine-simulator.html</link>
+      <guid isPermaLink="true">/blog/turing-machine-simulator.html</guid>
+    </item>
     
     <item>
       <title>C'est la vie</title>
