@@ -75,9 +75,9 @@ Department of Computer Science &amp;amp; Technology, Nanjing University, China.&
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;This is a Turing machine simulator based on a nice Java Turing machine simulator from &lt;a href=&quot;http://introcs.cs.princeton.edu/java/74turing/&quot;&gt;http://introcs.cs.princeton.edu/java/74turing/&lt;/a&gt;. You can find the project in &lt;a href=&quot;https://github.com/kun-wang/turing-machine-simulator&quot;&gt;GitHub&lt;/a&gt;. Feel free to fork, modify it.&lt;/p&gt;
-
-&lt;p&gt;The syntax of Turing machine is totally from the book of
+&lt;p&gt;This is a Turing machine simulator based on a nice Java Turing machine simulator from &lt;a href=&quot;http://introcs.cs.princeton.edu/java/74turing/&quot;&gt;http://introcs.cs.princeton.edu/java/74turing/&lt;/a&gt;. You can find the project in &lt;a href=&quot;https://github.com/kun-wang/turing-machine-simulator&quot;&gt;GitHub&lt;/a&gt;. Feel free to fork, modify it
+.
+The syntax of Turing machine is totally from the book of
 &amp;quot;&lt;em&gt;Introduction to Models of Computation&lt;/em&gt;&amp;quot; by professor Fangmin Song, which you can buy from &lt;a href=&quot;http://www.amazon.cn/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E7%94%9F%E7%B3%BB%E5%88%97%E6%95%99%E6%9D%90-%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B%E5%AF%BC%E5%BC%95-%E5%AE%8B%E6%96%B9%E6%95%8F/dp/B008N6TA4U/ref=sr_1_1?ie=UTF8&amp;amp;qid=1421406550&amp;amp;sr=8-1&amp;amp;keywords=%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B%E5%AF%BC%E5%BC%95&quot;&gt;Amazon&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;description&quot;&gt;Description&lt;/h2&gt;
