@@ -1,0 +1,16 @@
+#####################################################################
+# This is the template for resources
+#####################################################################
+# - title: [talk title]
+# description: [place and date]
+# url: [download url] 
+
+#####################################################################
+- title: Graduate Student Resources on the Web
+  description: pointers to lots of other good web pages related to 
+      graduate life in general.
+  url: http://www-personal.umich.edu/~danhorn/graduate.html
+
+- title: How to Succeed in Graduate School
+  description: by Marie desJardins; the best source of advice!
+  url: http://www.cs.umbc.edu/~mariedj/papers/advice-summary.html

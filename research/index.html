@@ -89,8 +89,14 @@ Here is my <a href="http://kun-wang.github.io/files/kunwang-resume.pdf">resume</
 <!-- -------------------------------------------------------------- -->
 <h1>Resources</h1><a name="resource"></a>
 
-<div>
-Here goes a collection of resources.
-</div>
+<ul>
+{% for piece in site.data.resources %}
+  <div>
+    <li> 
+	    <p><a href="{{ piece.url }}"><strong><i>{{ piece.title }}</i></strong></a>, {{ piece.description }}
+	</li>
+  </div>
+{% endfor %}
+</ul>
 
 <p>[<a href="#top" target="_self"><i>go top</i></a>]</p>
