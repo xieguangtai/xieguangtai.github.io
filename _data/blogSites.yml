@@ -1,0 +1,11 @@
+#####################################################################
+# This is the template for blog sites
+#####################################################################
+# - title: [blog title]
+# description: [description]
+# url: [download url]
+#####################################################################
+- title: Computational Complexity
+  description: Computational Complexity and other fun stuff in math and computer science from Lance Fortnow and Bill Gasarch.
+  url: http://blog.computationalcomplexity.org/
+

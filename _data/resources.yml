@@ -2,10 +2,17 @@
 # This is the template for resources
 #####################################################################
 # - title: [talk title]
-# description: [place and date]
+# description: [description]
 # url: [download url] 
-
 #####################################################################
+- title: How to Read a Paper
+  description: Researchers spend a great deal of time reading research papers. 
+               However, this skill is rarely taught, leading to much wasted effort.
+               This article outlines a practical and efficient three pass method
+               for reading research papers. It also describes how to use this
+               method to do a literature survey.
+  url: http://ccr.sigcomm.org/online/files/p83-keshavA.pdf
+
 - title: Graduate Student Resources on the Web
   description: pointers to lots of other good web pages related to 
       graduate life in general.
