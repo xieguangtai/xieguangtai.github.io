@@ -67,6 +67,35 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>How to Make Infinite to be Finite</title>
+      <description>&lt;p&gt;As I read the wiki entry on &lt;a href=&quot;https://en.wikipedia.org/wiki/Transfinite_number&quot;&gt;Transfinite number&lt;/a&gt;, some problems come to my mind.&lt;/p&gt;
+
+&lt;h2 id=&quot;take-finite-out-of-infinite&quot;&gt;Take Finite out of Infinite&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;what is left after I take a finite subset out of an infinite set?&lt;/strong&gt;
+Consider the &lt;a href=&quot;https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel&quot;&gt;Hilbert&amp;#39;s paradox of the Grand Hotel&lt;/a&gt;. If room 1 is out of services, then we can move the guest currently in room 1 to room 2, the guest currently in room 2 to room 3, and so on, moving every guest from his current room $n$ to room $n+1$. After this, room 1 is not needed. By repeating this procedure, it is possible to cancel any finite number of rooms which are out of services. The answer to the problem is, when we take a finite subset out of an infinite set, the remaining set is still infinite.&lt;/p&gt;
+
+&lt;h2 id=&quot;take-infinite-out-of-infinite&quot;&gt;Take Infinite out of Infinite&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;what is left after I take an infinite subset out of an infinite set?&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Case 1&lt;/code&gt;&lt;br&gt;
+Take the &lt;a href=&quot;https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel&quot;&gt;Hilbert&amp;#39;s paradox of the Grand Hotel&lt;/a&gt; as an example. If all rooms of odd number are out of services, then we can first assume only room 1 is not availabe, the guest currently in room 1 is moved to room 2, guest in room 2 to room 3, and so on, moving every guest from his current room $n$ to room $n+1$. After this, room 1 is not needed. By repeating this procedure, it is possible to cancel all odd rooms. In this 
+case, the answer to the problem is, when we take an infinite subset (set of odd numbers) out of an infinite set, the remaining set is still infinite. &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Case 2&lt;/code&gt;&lt;br&gt;
+Take the set of natural numbers as example. We simply make the infinite subset $A$ be
+$ A = {x \in N | x \neq 1 }$. 
+It&amp;#39;s easy to see that A is infinite, and the complement set of $A$ over $N$ is of size 1. In this case, the answer to the problem is, when we take an infinite subset (set of $A$) out of an infinite set, the remaining set is finite. &lt;/p&gt;
+
+&lt;p&gt;Here is what confused me most. The cardinality of &lt;em&gt;set of odd numbers&lt;/em&gt; and set $A$ are both &lt;em&gt;Aleph-null&lt;/em&gt;, why their complements over $N$ are different? Currently, I make myself convinced that the problem occurs due to the ambiguity of &lt;em&gt;complement over N&lt;/em&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 11 Jul 2015 00:00:00 +0800</pubDate>
+      <link>/blog/from-infinite-to-finite.html</link>
+      <guid isPermaLink="true">/blog/from-infinite-to-finite.html</guid>
+    </item>
+    
+    <item>
       <title>Turing Machine Simulator</title>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Copyright 2014, Kun Wang (&lt;a href=&quot;mailto:nju.wangkun@gmail.com&quot;&gt;nju.wangkun@gmail.com&lt;/a&gt;).&lt;br&gt;
@@ -173,18 +202,6 @@ Bob: Oh well, c&amp;#39;est la vie.&lt;/p&gt;
       <pubDate>Thu, 28 May 2015 00:00:00 +0800</pubDate>
       <link>/blog/notes-on-cest-la-vie.html</link>
       <guid isPermaLink="true">/blog/notes-on-cest-la-vie.html</guid>
-    </item>
-    
-    <item>
-      <title>How to Setup Jekyll in Windows</title>
-      <description>&lt;p&gt;With such a trial and error, I successfully configured the jekyll.
-Now I write down the steps I have taken.&lt;/p&gt;
-
-&lt;p&gt;Step1. Download Jekyll.&lt;/p&gt;
-</description>
-      <pubDate>Tue, 26 May 2015 00:00:00 +0800</pubDate>
-      <link>/blog/setup-jekyll-in-windows.html</link>
-      <guid isPermaLink="true">/blog/setup-jekyll-in-windows.html</guid>
     </item>
     
   </channel>
