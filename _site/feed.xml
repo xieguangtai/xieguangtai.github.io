@@ -67,6 +67,19 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Setting Up a Domain with GitHub Pages</title>
+      <description>&lt;h2 id=&quot;step-1.-creating-and-committing-a-cname-file&quot;&gt;Step 1. Creating and committing a CNAME file&lt;/h2&gt;
+
+&lt;p&gt;To redirect your GitHub Pages site, you must create and commit a &amp;#39;CNAME&amp;#39; file that contains the custom domain to your repository&amp;#39;s root directory. In the new file, add a single line that specifies the bare subdomain for your custom domain. For example, use &lt;code&gt;quantumman.me&lt;/code&gt;, not &lt;code&gt;https://quantumman.me&lt;/code&gt;. Note that there can only be one domain in the CNAME file.
+For example, my repository is &lt;code&gt;kun-wang.github.io&lt;/code&gt;, so I will add a file named &lt;code&gt;cname&lt;/code&gt; in the root directory. 
+For more information, see &amp;quot;Adding a CNAME file to your repository.&amp;quot; &lt;/p&gt;
+</description>
+      <pubDate>Thu, 16 Jul 2015 00:00:00 +0800</pubDate>
+      <link>/blog/setting-up-a-domain-with-gitHub-pages.html</link>
+      <guid isPermaLink="true">/blog/setting-up-a-domain-with-gitHub-pages.html</guid>
+    </item>
+    
+    <item>
       <title>Reading List 2015</title>
       <description>&lt;p&gt;This is a summary of books I have read in 2015. I do reading with Kindle paperwhite, Kindle DXG and iPad Air. For professional books, I prefer the printed version. 
 Click &lt;a href=&quot;http://www.douban.com/people/wsbd2018/&quot;&gt;me&lt;/a&gt; to visit my Douban homepage.&lt;/p&gt;
@@ -277,14 +290,20 @@ Bob: Oh well, c&amp;#39;est la vie.&lt;/p&gt;
 <!-- ----------------------------------------------------- -->
 <!-- Links in the bottom --------------------------------- -->
 <!-- ----------------------------------------------------- -->
-
 <div  style="border-bottom: 1px solid #ddd"></div>
 <footer>
   <p>
     Copyright © 2015 <a href="blog/notes-on-cest-la-vie.html">C'est La Vie</a>. Made with <a href="http://jekyllrb.com/">Jekyll</a>,
     hosted on <a href="https://github.com/kun-wang/kun-wang.github.io">Github Pages</a>. Theme inspired by <a href="http://willard-yuan.github.io">Yuan Yong</a>.
   </p>
+  <!-- easy counter -->
+  <p>
+    <a href="http://www.easycounter.com/">
+    <img src="http://www.easycounter.com/counter.php?quantumman"
+    border="0" alt="Web Counters"></a>  hits since June 2015.
+  </p>
 </footer>
+
 
 
 <script type="text/javascript">

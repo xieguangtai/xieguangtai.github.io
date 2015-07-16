@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
-    How to Make Infinite to be Finite
+    Setting Up a Domain with GitHub Pages
     
   </title>
   <link rel="stylesheet" href="../css/site.css">
@@ -62,35 +62,19 @@
 
 <article>
   <h1 class="inner">
-    How to Make Infinite to be Finite
+    Setting Up a Domain with GitHub Pages
   </h1>
 
-  <p class="meta">Saturday 11 July 2015</p>
+  <p class="meta">Thursday 16 July 2015</p>
 
   <div id="menu"></div>
   <div id="main" class="span9">
   <div class="post">
-    <p>As I read the wiki entry on <a href="https://en.wikipedia.org/wiki/Transfinite_number">Transfinite number</a>, some problems come to my mind.</p>
+    <h2 id="step-1.-creating-and-committing-a-cname-file">Step 1. Creating and committing a CNAME file</h2>
 
-<h2 id="take-finite-out-of-infinite">Take Finite out of Infinite</h2>
-
-<p><strong>what is left after I take a finite subset out of an infinite set?</strong>
-Consider the <a href="https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel">Hilbert&#39;s paradox of the Grand Hotel</a>. If room 1 is out of services, then we can move the guest currently in room 1 to room 2, the guest currently in room 2 to room 3, and so on, moving every guest from his current room $n$ to room $n+1$. After this, room 1 is not needed. By repeating this procedure, it is possible to cancel any finite number of rooms which are out of services. The answer to the problem is, when we take a finite subset out of an infinite set, the remaining set is still infinite.</p>
-
-<h2 id="take-infinite-out-of-infinite">Take Infinite out of Infinite</h2>
-
-<p><strong>what is left after I take an infinite subset out of an infinite set?</strong>  </p>
-
-<p><code>Case 1</code><br>
-Take the <a href="https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel">Hilbert&#39;s paradox of the Grand Hotel</a> as an example. If all rooms of odd number are out of services, then we can first assume only room 1 is not availabe, the guest currently in room 1 is moved to room 2, guest in room 2 to room 3, and so on, moving every guest from his current room $n$ to room $n+1$. After this, room 1 is not needed. By repeating this procedure, it is possible to cancel all odd rooms. In this 
-case, the answer to the problem is, when we take an infinite subset (set of odd numbers) out of an infinite set, the remaining set is still infinite. </p>
-
-<p><code>Case 2</code><br>
-Take the set of natural numbers as example. We simply make the infinite subset $A$ be
-$ A = {x \in N | x \neq 1 }$. 
-It&#39;s easy to see that A is infinite, and the complement set of $A$ over $N$ is of size 1. In this case, the answer to the problem is, when we take an infinite subset (set of $A$) out of an infinite set, the remaining set is finite. </p>
-
-<p>Here is what confused me most. The cardinality of <em>set of odd numbers</em> and set $A$ are both <em>Aleph-null</em>, why their complements over $N$ are different? Currently, I make myself convinced that the problem occurs due to the ambiguity of <em>complement over N</em>.</p>
+<p>To redirect your GitHub Pages site, you must create and commit a &#39;CNAME&#39; file that contains the custom domain to your repository&#39;s root directory. In the new file, add a single line that specifies the bare subdomain for your custom domain. For example, use <code>quantumman.me</code>, not <code>https://quantumman.me</code>. Note that there can only be one domain in the CNAME file.
+For example, my repository is <code>kun-wang.github.io</code>, so I will add a file named <code>cname</code> in the root directory. 
+For more information, see &quot;Adding a CNAME file to your repository.&quot; </p>
 
   </div>
   </div>
