@@ -75,14 +75,17 @@
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/&quot;&gt;Setting up a custom domain with GitHub Pages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/renfufei/article/details/37725057&quot;&gt;创建GitHub技术博客全攻略&lt;/a&gt; - 第九部分：CNAME绑定域名&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.fens.me/hexo-blog-github/&quot;&gt;Hexo在github上构建免费的Web应用&lt;/a&gt; - 第4.3节：设置域名&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;第一步：创建cname文件夹&quot;&gt;第一步：创建CNAME文件夹&lt;/h2&gt;
 
-&lt;p&gt;在你的个人博客仓库的根目录中新建文件&lt;code&gt;CNAME&lt;/code&gt;（注意没有后缀），在该文件增加一行文字，说明你想指定的域名，该域名不能包含前缀信息，即不能添加&lt;code&gt;http:\\&lt;/code&gt;前缀：&lt;/p&gt;
+&lt;p&gt;在你的个人博客仓库的根目录中新建文件&lt;code&gt;CNAME&lt;/code&gt;（注意没有后缀），在该文件增加一行文字，告诉Github Pages服务器你想指定的域名。该域名不能包含前缀信息，即不能添加&lt;code&gt;http:\\&lt;/code&gt;前缀。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/post-setting-up-a-domain-with-github-pages-2.png&quot; alt=&quot;CNAME文件内容&quot;&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;quantumman.me&lt;/p&gt;
+&lt;p&gt;!重要补充！CNAME文件名一定要大写，否则Github Pages服务器无法识别和解析。我就出现了这样的问题。我的CNAME绑定域名是正确的，通过&lt;code&gt;ping quantumman.me&lt;/code&gt;和&lt;code&gt;ping kun-wang.github.io&lt;/code&gt;两条指令，我发现了他们都指向同一个IP地址（即我的博客IP地址），可是我在使用浏览器访问的时候，会出现&lt;code&gt;Site not Found&lt;/code&gt;提示，这个时候我就只能合理的怀疑Github Pages服务器根本就没有把&lt;code&gt;quantumman.me&lt;/code&gt;和&lt;code&gt;kun-wang.github.io&lt;/code&gt;绑定起来，即我的CNAME文件设置错误。Google之后发现CNAME文件名的大小写会产生影响（&lt;a href=&quot;https://help.github.com/articles/my-custom-domain-isn-t-working/&quot;&gt;My custom domain isn&amp;#39;t working&lt;/a&gt;），万恶的Windows系统不区分文件名大小写，所以即使你在本地更改了CNAME大小写然后push到github，还是没有用。。。我就只好到github上去修改成大写了。。。坑。。。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;每个CNAME文件能且只能指定一个域名。更多关于增加CNAME文件的信息可见&lt;a href=&quot;https://help.github.com/articles/adding-a-cname-file-to-your-repository/&quot;&gt;Adding a CNAME file to your repository&lt;/a&gt;。&lt;/p&gt;
@@ -95,15 +98,23 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/post-setting-up-a-domain-with-github-pages-1.png&quot; alt=&quot;域名解析&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;在域名解析中，A记录就是直接指定一个IP，CNAME就是重命名，指向另一个域名。
-如果你想将&lt;code&gt;blog.maindomain.com&lt;/code&gt;（即博客域名地址）映射到&lt;code&gt;kun-wang.github.io&lt;/code&gt;，那么在主机记录中就应该填写&lt;code&gt;blog&lt;/code&gt;，记录类型为CNAME，记录值是&lt;code&gt;kun-wang.github.io&lt;/code&gt;，因为你的主域名已经默认为&lt;code&gt;maindomain.com&lt;/code&gt;。
-将如果你想将&lt;code&gt;www.maindomain.com&lt;/code&gt;（即主域名地址）映射到&lt;code&gt;kun-wang.github.io&lt;/code&gt;，那么主机记录就是&lt;code&gt;www&lt;/code&gt;,记录类型是CNAME，记录值是&lt;code&gt;kun-wang.github.io&lt;/code&gt;。
-如果想将&lt;code&gt;http://quantum.me&lt;/code&gt;这个根域名映射&lt;code&gt;kun-wang.github.io&lt;/code&gt;，那么记录类型也是CNAME,主机记录就是一个&lt;code&gt;@&lt;/code&gt;，记录值是&lt;code&gt;kun-wang.github.io&lt;/code&gt;，表示将当前根域名映射到指定值。
-你可以将多个域名都映射到&lt;code&gt;xxxxx.github.io&lt;/code&gt;之类的你自己的站点上，但是需要新建不同内容的CNAME文件。&lt;/p&gt;
+&lt;p&gt;默认使用阿里云提供的万网DNS服务器。当然你也可以使用&lt;a href=&quot;https://www.dnspod.cn/&quot;&gt;DNSPOD&lt;/a&gt;提供的DNS服务器，这样可以使你的域名在国外更快速的传播。当你使用DNSPOD提供的DNS服务器时，除了DNS服务器不一样以外，其他的设置（比如A记录和CNAME记录）均相同。以下我们简要分析我们所添加的A记录和CNAME记录的含义。&lt;/p&gt;
 
-&lt;p&gt;注意，因为我们并没有主域名（.com/.org等结尾的域名），所以不需要使用A记录进行域名解析。&lt;/p&gt;
+&lt;p&gt;在域名解析中，A记录就是直接指定一个IP，CNAME就是重命名，指向另一个域名。&lt;/p&gt;
 
-&lt;p&gt;第二步的目的是，告诉DNS解析服务器，所有&lt;code&gt;quantumman.me&lt;/code&gt;的访问都会被重定向到&lt;code&gt;kun-wang.github.io&lt;/code&gt;。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在阿里云控制台，设置主机记录&lt;code&gt;www&lt;/code&gt;，记录类型为A，记录值是IP&lt;code&gt;192.30.252.153&lt;/code&gt;。其中&lt;code&gt;192.30.252.153&lt;/code&gt;是Github Pages服务器指定的IP地址，访问该IP地址即表示访问Github Pages。&lt;/li&gt;
+&lt;li&gt;在阿里云控制台，设置主机记录&lt;code&gt;www&lt;/code&gt;，记录类型为A，记录值是IP&lt;code&gt;192.30.252.154&lt;/code&gt;。同上。&lt;/li&gt;
+&lt;li&gt;在阿里云控制台，设置主机记录&lt;code&gt;@&lt;/code&gt;，记录类型为CNAME，记录值是&lt;code&gt;kun-wang.github.io.&lt;/code&gt;。表示将&lt;code&gt;http://quantum.me&lt;/code&gt;这个主域名映射&lt;code&gt;kun-wang.github.io&lt;/code&gt;。在这里千万不要忘记记录值中&lt;code&gt;.io&lt;/code&gt;后面还有一个点&lt;code&gt;.&lt;/code&gt;！&lt;/li&gt;
+&lt;li&gt;但是很多时候，我们只想将子域名绑定到博客地址。比如如果你想将&lt;code&gt;blog.maindomain.com&lt;/code&gt;（即博客子域名地址，主域名地址是&lt;code&gt;www.maindomain.com&lt;/code&gt;）映射到&lt;code&gt;kun-wang.github.io&lt;/code&gt;，那么在主机记录中就应该填写&lt;code&gt;blog&lt;/code&gt;，记录类型为CNAME，记录值是&lt;code&gt;kun-wang.github.io&lt;/code&gt;。因为你的主域名已经默认为&lt;code&gt;maindomain.com&lt;/code&gt;，所以主域名和主机记录合起来就是&lt;code&gt;blog.maindomain.com&lt;/code&gt;。而且这个时候，你github项目的CNAME文件内容也应该相应的改为&lt;code&gt;blog.maindomain.com&lt;/code&gt;，因为你是想将&lt;code&gt;kun-wang.github.io&lt;/code&gt;和&lt;code&gt;blog.maindomain.com&lt;/code&gt;绑定起来，而不是和&lt;code&gt;www.maindomain.com&lt;/code&gt;绑定。&lt;/li&gt;
+&lt;li&gt;如果你想将&lt;code&gt;www.maindomain.com&lt;/code&gt;（即主域名地址）映射到&lt;code&gt;kun-wang.github.io&lt;/code&gt;，那么主机记录就是&lt;code&gt;www&lt;/code&gt;,记录类型是A，记录值是具体的IP地址（在我们这个例子中是&lt;code&gt;192.30.252.153&lt;/code&gt;、&lt;code&gt;192.30.252.154&lt;/code&gt;）。因为你的主域名已经默认为&lt;code&gt;maindomain.com&lt;/code&gt;，所以主域名和主机记录合起来就是&lt;code&gt;www.maindomain.com&lt;/code&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;你可以将多个域名都映射到&lt;code&gt;xxxxx.github.io&lt;/code&gt;之类的你自己的站点上，但是需要新建不同内容的CNAME文件。&lt;/p&gt;
+
+&lt;p&gt;注意，&lt;code&gt;.me&lt;/code&gt;已经是顶级域名（和&lt;code&gt;.com&lt;/code&gt;、&lt;code&gt;.org&lt;/code&gt;等域名是同一级的），所以需要使用A记录进行域名解析。&lt;/p&gt;
+
+&lt;p&gt;第二步的目的是，告诉所有DNS服务器，对于&lt;code&gt;quantumman.me&lt;/code&gt;的访问都会被重定向到&lt;code&gt;kun-wang.github.io&lt;/code&gt;。&lt;/p&gt;
 
 &lt;h2 id=&quot;第三步：漫长的等待&quot;&gt;第三步：漫长的等待&lt;/h2&gt;
 
