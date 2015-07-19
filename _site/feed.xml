@@ -67,6 +67,105 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>IQC - Discrete Quantum Walks</title>
+      <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In this post, I will give a description on discrete quantum walks.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 27 Jul 2015 00:00:00 +0800</pubDate>
+      <link>/blog/discrete-quantum-walks.html</link>
+      <guid isPermaLink="true">/blog/discrete-quantum-walks.html</guid>
+    </item>
+    
+    <item>
+      <title>IQC - Shor Algorithm</title>
+      <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In this post, I will give a description on Shor Algorithm.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0800</pubDate>
+      <link>/blog/shor-algorithm.html</link>
+      <guid isPermaLink="true">/blog/shor-algorithm.html</guid>
+    </item>
+    
+    <item>
+      <title>IQC - Grover Algorithm</title>
+      <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In this post, I will give a description on Grover Algorithm.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0800</pubDate>
+      <link>/blog/grover-algorithm.html</link>
+      <guid isPermaLink="true">/blog/grover-algorithm.html</guid>
+    </item>
+    
+    <item>
+      <title>IQC - Simon Algorithm</title>
+      <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In this post, I will give a description on Simon Algorithm.&lt;/p&gt;
+</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0800</pubDate>
+      <link>/blog/simon-algorithm.html</link>
+      <guid isPermaLink="true">/blog/simon-algorithm.html</guid>
+    </item>
+    
+    <item>
+      <title>IQC - Deutsch-Jozsa Algorithm</title>
+      <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In this post, I will give a description on Deutsch and Deutsch-Jozsa Algorithm.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 23 Jul 2015 00:00:00 +0800</pubDate>
+      <link>/blog/deutsch-jozsa-algorithm.html</link>
+      <guid isPermaLink="true">/blog/deutsch-jozsa-algorithm.html</guid>
+    </item>
+    
+    <item>
+      <title>IQC - Summary of Quantum Algorithms</title>
+      <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In this post, I will summarize some important quantum algorithms.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 22 Jul 2015 00:00:00 +0800</pubDate>
+      <link>/blog/summary-of-quantum-algorithms.html</link>
+      <guid isPermaLink="true">/blog/summary-of-quantum-algorithms.html</guid>
+    </item>
+    
+    <item>
+      <title>IQC - Why is Quantum Computation Hard</title>
+      <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In this post, I will try to explain why quantum computation is hard.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 21 Jul 2015 00:00:00 +0800</pubDate>
+      <link>/blog/why-quantum-computation-hard.html</link>
+      <guid isPermaLink="true">/blog/why-quantum-computation-hard.html</guid>
+    </item>
+    
+    <item>
+      <title>IQC - Why is Quantum Computation Important</title>
+      <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In this post, I will try to explain why quantum computation is important.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 20 Jul 2015 00:00:00 +0800</pubDate>
+      <link>/blog/why-quantum-computation-important.html</link>
+      <guid isPermaLink="true">/blog/why-quantum-computation-important.html</guid>
+    </item>
+    
+    <item>
+      <title>IQC - What is Quantum Computation</title>
+      <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;In this post, I will try to summarize quantum computation in brief.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 19 Jul 2015 00:00:00 +0800</pubDate>
+      <link>/blog/what-is-quantum-computation.html</link>
+      <guid isPermaLink="true">/blog/what-is-quantum-computation.html</guid>
+    </item>
+    
+    <item>
       <title>GitHub Pages 绑定来自阿里云的域名</title>
       <description>&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
 

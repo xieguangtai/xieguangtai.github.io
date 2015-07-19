@@ -2,10 +2,36 @@
 # This is the template for blog sites
 #####################################################################
 # - title: [blog title]
+# creator: [blog creator]
 # description: [description]
 # url: [download url]
 #####################################################################
+- title: Shtetl-Optimized
+  creator: Scott Aaronson
+  description: on quantum computation, computer science, and more.
+  url: http://www.scottaaronson.com/blog/
+
+- title: Blog of Michael Nielsen
+  creator: Michael Nielsen
+  description: Michael Nielsen is coauthor of the famous book
+               <i>Quantum Computation and Quantum Information</i>.
+               This blog is on quantum computation, computer science, and more.
+  url: http://michaelnielsen.org/blog/
+
+- title: The Quantum Pontiff
+  creator: Dave Bacon
+  description: This blog was founded by and is still hosted by the occasionally posting 
+               Pontifex Praeteritorum (who notes that his posts are is own personal opinion
+               and in now way associated with the awesome company he now works for.)
+  url: http://dabacon.org/pontiff/
+
+- title: Quantum Frontiers
+  creator: Institute for Quantum Information and Matter @ Caltech
+  description: 
+  url: http://quantumfrontiers.com/
+
 - title: Computational Complexity
-  description: Computational Complexity and other fun stuff in math and computer science from Lance Fortnow and Bill Gasarch.
+  creator: Lance Fortnow and Bill Gasarch
+  description: on computational complexity and other fun stuff in math and computer science.
   url: http://blog.computationalcomplexity.org/
 
