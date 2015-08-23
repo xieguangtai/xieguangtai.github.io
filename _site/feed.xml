@@ -31,7 +31,8 @@
         <a class="" href="/research/">Research</a>
         <a class="" href="/project/">Project</a>
         <a class="" href="/blog/">Blog</a>
-        <a href="https://github.com/kun-wang">Github</a>
+        <a class="" href="/quark/">Quark</a>
+        <!-- <a href="https://github.com/kun-wang">Github</a> -->
       </nav>
       
 
@@ -65,6 +66,112 @@
     <description>On Quantum Computation, Quantum Information, Quantum Programming and Computation Theory. </description>
     <link>http://kun-wang.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Research Group - Quark</title>
+      <description>&lt;p&gt;Well, actually I have no research group now, but it cannot stop me from wondering what my group name will be if I had one.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Quark&lt;/em&gt;&lt;/strong&gt;, which means &lt;strong&gt;&lt;em&gt;QUA&lt;/em&gt;&lt;/strong&gt;-ntum &lt;strong&gt;&lt;em&gt;R&lt;/em&gt;&lt;/strong&gt;-esearch &lt;strong&gt;&lt;em&gt;K&lt;/em&gt;&lt;/strong&gt;-alon, is an institute dedicated to the study of quantum computation, quantum information and other researches in quantum theory. &lt;/p&gt;
+
+&lt;p&gt;Kalon, its definition is &amp;quot;ideal perfect beauty in the physical and moral sense, especially as perceived by Greek philosophers&amp;quot; (&lt;a href=&quot;https://en.wiktionary.org/wiki/kalon&quot;&gt;Definition of Kalon&lt;/a&gt;). I used it here to compliment the beauty and elegance of quantum computing.&lt;/p&gt;
+
+&lt;p&gt;A trademark is needed, anyone who interested please contacts me. It&amp;#39;s really my great honor to hear from you.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 23 Aug 2015 00:00:00 +0800</pubDate>
+      <link>/blog/quark.html</link>
+      <guid isPermaLink="true">/blog/quark.html</guid>
+    </item>
+    
+    <item>
+      <title>Copyright VS. Copyleft</title>
+      <description>&lt;p&gt;&lt;img src=&quot;/images/posts/post-copyright-vs-copyleft.gif&quot; alt=&quot;trademark&quot;&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;copyleft-概念起源&quot;&gt;Copyleft 概念起源&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;著佐权 (Copyleft)&lt;/code&gt;是一个由自由软件运动所发展的概念，是一种利用现有著作权体制来挑战该体制的授权方式。在自由软件授权方式中增加著佐权条款之後， 该自由软件除了允许使用者自由使用/散布/改作之外，著佐权条款更要求使用者改作後的衍生作品必须要以同等的授权方式释出以回馈社群。Copyleft是将一个程序成为自由软件的通用方法，同时也使得这个程序的修改和扩充版本成为自由软件。提出并使用Copyleft观念的是GNU计划，具体的发布条款包含在GNU通用公共许可证、GNU宽通用公共许可证和GNU自由文档许可证里。&lt;/p&gt;
+
+&lt;h2 id=&quot;copyleft-和-copyright-比较&quot;&gt;Copyleft 和 Copyright 比较&lt;/h2&gt;
+
+&lt;p&gt;Copyright(C)：版权所有，即软件的一切权利归软件作者私有。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;许可：各种保护软件版权私有的许可。&lt;/li&gt;
+&lt;li&gt;包括：开源软件/免费软件/共享软件/传统商业软件。&lt;/li&gt;
+&lt;li&gt;特点：软件的版权和其它一切权利归软件作者所私有。用户只有使用权，没有其它权利，包括没有复制软件的权利。&lt;/li&gt;
+&lt;li&gt;盈利方式：出售私有软件（包括：出售软件、出售源码、出售编译源码的方法和编译器）的使用权。&lt;/li&gt;
+&lt;li&gt;缺点：
+
+&lt;ol&gt;
+&lt;li&gt;软件版权保护的办法是仿照对书及其印刷的版权保护方法而来的，这种方法并不符合计算机的特点（比如：书的复制需要设备和可观的成本，而计算机文件的复制是不需要增加任何开销的），用保护书的办法来保护软件反而阻碍软件业的发展。&lt;/li&gt;
+&lt;li&gt;软件制作商容易利用软件的私有权形成商业垄断和知识霸权，谋取暴利，严重侵害用户的利益。&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Copyleft(Ɔ)：反对软件一切权利归作者私有，保护知识共享、权利共享。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;许可：GPL。&lt;/li&gt;
+&lt;li&gt;包括：自由软件。&lt;/li&gt;
+&lt;li&gt;特点：软件的版权归原作者所有，其它一切权利归任何人所有。用户和软件的作者享有除版权外的完全同等的权利，包括复制软件和重新发布修改过的软件的权利。唯一不许可的就是任何人也不能将软件拒为私有。&lt;/li&gt;
+&lt;li&gt;盈利方式：与硬件一起销售，提供收费的服务，提供收费的担保等。&lt;/li&gt;
+&lt;li&gt;缺点：对部分传统商业软件制作商（比如：微软公司）有巨大的冲击。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;简而言之，Copyleft = Copyright + GPL。因此，区别开源软件与传统商业软件主要是看开不开放源代码；而区别自由软件与开源软件主要是看软件有没有给用户版权以外的一切权利。&lt;/p&gt;
+
+&lt;h2 id=&quot;其他&quot;&gt;其他&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;有名的Copyleft协议： GNU GPL (General Public Licence，通用公共许可证，常用于软件作品)。&lt;/li&gt;
+&lt;li&gt;Copyleft写法：
+
+&lt;ol&gt;
+&lt;li&gt;{作品名称} 版权没有，翻印不究。但请协助改进本作品。&lt;/li&gt;
+&lt;li&gt;Copyleft! {年份}，{所有者}。版权部分所有，遵循{某种著佐权协议}授权使用。&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;使用Copyleft协议的软件：开源操作系统Linux和一系列的开源软件，由FSF的GNU计划等支持和维护，遵循GPL许可协议。如今许多知名厂商已经加入开放/源运动并成为重要支柱，如IBM/Google/Apple等。随着知识产权的普及，微软的Windows盗版逐渐变少，Linux是个不错的选择，如Debain/Ubuntu、RHL/Fedora/CentOS等。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;主要参考资料：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/lm2302293/article/details/6732126&quot;&gt;知道Copyright，那知道Copyleft吗？“著佐权”介绍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.chinaunix.net/uid-26495963-id-3188740.html&quot;&gt; Copyright 与 Copyleft&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <pubDate>Tue, 18 Aug 2015 00:00:00 +0800</pubDate>
+      <link>/blog/copyright-vs-copyleft.html</link>
+      <guid isPermaLink="true">/blog/copyright-vs-copyleft.html</guid>
+    </item>
+    
+    <item>
+      <title>使用 Commons CLI 开发命令行工具</title>
+      <description>&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;在我设计&lt;a href=&quot;ttt&quot;&gt;arXiv Extractor&lt;/a&gt;的时候，想将这个软件设计成命令行工具形式，从而用户可以完成不同的任务。如果自己去解析参数的话，代码太冗长而单调，所以决定服用成熟的代码。&lt;a href=&quot;https://commons.apache.org/proper/commons-cli/&quot;&gt;Commons CLI&lt;/a&gt;满足这样的需求。
+下面我通过一个完整的例子展示如何准备、开发、测试一个命令行工具。希望本文对有相关需求的读者能有所帮助。&lt;/p&gt;
+
+&lt;p&gt;主要参考资料：
+1. &lt;a href=&quot;https://commons.apache.org/proper/commons-cli/&quot;&gt;Coomons CLI Website (where you can download it)&lt;/a&gt;
+2. &lt;a href=&quot;https://www.ibm.com/developerworks/cn/java/j-lo-commonscli/&quot;&gt;使用 Apache Commons CLI 开发命令行工具&lt;/a&gt;
+3. [Hexo在github上构建免费的Web应用][5] - 第4.3节：设置域名&lt;/p&gt;
+
+&lt;h2 id=&quot;commons-cli-简介&quot;&gt;Commons CLI 简介&lt;/h2&gt;
+
+&lt;p&gt;Apache Commons CLI 是 Apache 下面的一个解析命令行输入的工具包，该工具包还提供了自动生成输出帮助文档的功能。
+Apache Commons CLI 支持多种输入参数格式，主要支持的格式有以下几种：
+1. POSIX（Portable Operating System Interface of Unix）中的参数形式，例如 &lt;code&gt;tar -zxvf foo.tar.gz&lt;/code&gt;
+2. GNU 中的长参数形式，例如 &lt;code&gt;du --human-readable --max-depth=1&lt;/code&gt;
+3. Java 命令中的参数形式，例如 &lt;code&gt;java -Djava.net.useSystemProxies=true Foo&lt;/code&gt;
+4. 短杠参数带参数值的参数形式，例如 &lt;code&gt;gcc -O2 foo.c&lt;/code&gt;
+5. 长杠参数不带参数值的形式，例如 &lt;code&gt;ant - projecthelp&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;通常情况下命令行处理有三个步骤：定义，解析和询问阶段。本章节将依次解释这三个步骤，并将结合实例来讨论如何通过 Apache Commons CLI 来实现它们。由于本文作者一直从事和存储相关的工作，所以我们将设计一个如何向 Server 中添加 / 删除存储数据源的 CLI。&lt;/p&gt;
+</description>
+      <pubDate>Fri, 14 Aug 2015 00:00:00 +0800</pubDate>
+      <link>/blog/command-line-tools-with-commonscli.html</link>
+      <guid isPermaLink="true">/blog/command-line-tools-with-commonscli.html</guid>
+    </item>
     
     <item>
       <title>Reading List 2015</title>
