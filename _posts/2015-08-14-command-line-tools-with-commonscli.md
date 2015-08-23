@@ -6,7 +6,7 @@ categories: [java]
 
 ## 简介
 
-在我设计[arXiv Extractor](https://github.com/nju-cs-quark/arxiv-manager)的时候，想将这个软件设计成命令行工具形式，从而用户可以完成不同的任务。如果自己去解析参数的话，代码太冗长而单调，所以决定服用成熟的代码。[Commons CLI][1]满足这样的需求。
+在我设计[arXiv Manager](https://github.com/nju-cs-quark/arxiv-manager)的时候，想将这个软件设计成命令行工具形式，从而用户可以完成不同的任务。如果自己去解析参数的话，代码太冗长而单调，所以决定服用成熟的代码。[Commons CLI][1]满足这样的需求。
 下面我通过一个完整的例子展示如何准备、开发、测试一个命令行工具。希望本文对有相关需求的读者能有所帮助。
 
 主要参考资料：
