@@ -58,8 +58,10 @@ There are two different ways to setup the simulator.
 
 **Problem Description:** When exporting the project as a runnable jar (TMSimulator.jar is exported in this way), images cannot be load, as the jar cannot find the images.  
 **Current Solution:** This problem happens because the exporting system hasn't add the necessary files in `bin/images` into the jar file. There are two solutions:
+
 1. Modify the code to add the files.
 2. Add the `images` directory into the jar file manually.
+
 Due to my laziness, I take the latter one. It deserves better solution.
 
 > Problem 2

@@ -68,6 +68,83 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>arXiv Manager</title>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Copyright 2014, Kun Wang, &lt;a href=&quot;http://www.quantumman.me/&quot;&gt;http://www.quantumman.me/&lt;/a&gt;.&lt;br&gt;
+Department of Computer Science &amp;amp; Technology, Nanjing University, China.&lt;br&gt;
+Distributed under the protect of GNU GPLv3.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;This program &lt;code&gt;arXiv manager&lt;/code&gt; enables you to extract and filter interesting papers from the website arXiv. The &lt;a href=&quot;http://www.arxiv.org/&quot;&gt;arXiv&lt;/a&gt; (pronounced &amp;quot;archive&amp;quot;, as if the &amp;quot;X&amp;quot; were the Greek letter &lt;em&gt;Chi&lt;/em&gt;) is a repository of electronic preprints, known as e-prints, of scientific papers in the fields of mathematics, physics, astronomy, computer science, quantitative biology, statistics, and quantitative finance, which can be accessed online. In many fields of mathematics and physics, almost all scientific papers are self-archived on the arXiv. Begun on August 14, 1991, arXiv.org passed the half-million article milestone on October 3, 2008, and hit a million by the end of 2014. For more details, see &lt;a href=&quot;https://en.wikipedia.org/wiki/ArXiv&quot;&gt;introduction to arXiv&lt;/a&gt;. You can find the project in &lt;a href=&quot;https://github.com/nju-cs-quark/arxiv-manager&quot;&gt;GitHub&lt;/a&gt;. Feel free to fork, modify, and use it.&lt;/p&gt;
+
+&lt;h2 id=&quot;brief-description&quot;&gt;Brief Description&lt;/h2&gt;
+
+&lt;p&gt;The program is highly structured, divided into two relatively independent parts: extractor and filter, with some supplementary classes.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;src\...\main&lt;/code&gt;&lt;br&gt;
+Entry of the program, parse the user&amp;#39;s commands and dispatch the task to different workers (here the workers are the extractor and the filter). In order to parse the commands efficiently, I used the powerful command line options parser &lt;a href=&quot;https://commons.apache.org/proper/commons-cli/&quot;&gt;The Apache Commons CLI library&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;src\...\extractor&lt;/code&gt;&lt;br&gt;
+The extractor extracts user-interested papers from the arXiv. By giving different commands, the extractor will extract the papers by year, by month or by new submissions. &lt;em&gt;By year&lt;/em&gt; command is to extract all papers published in the aimed subject of the given year. &lt;em&gt;By month&lt;/em&gt; command is to extract all papers published in the aimed subject of the given month. &lt;em&gt;By new submissions&lt;/em&gt; command is to extract all papers published in the aimed subject of the latest day. there is a very nice usage on the &lt;em&gt;By new submissions&lt;/em&gt; command. You can setup a auto-run task in your system that extracts new submissions each day and deliver these papers to you. In this way, you can catch up with the researches advanced all around the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;src\...\filter&lt;/code&gt;&lt;br&gt;
+There are still too many unrelated papers after you extracted by subjects. For these extracted papers, throw them through the filter, the filter will filter these papers by pre-deinfed keywords. There are three kinds of keywords list:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;abstract keywords list&lt;/strong&gt; if a paper&amp;#39;s abstract contains any of keywords defined in the list, then this paper will be chosen as user-interested papers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;author keywords list&lt;/strong&gt; if a paper&amp;#39;s authors contain any of keywords defined in the list, then this paper will be chosen as user-interested papers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;title keywords list&lt;/strong&gt; if a paper&amp;#39;s title contains any of keywords defined in the list, then this paper will be chosen as user-interested papers.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As there are papers which contain keywords from different lists, we must do not mark them more than once.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;src\...\paper&lt;/code&gt;&lt;br&gt;
+In this package, we define a &lt;em&gt;Paper&lt;/em&gt; class which represents the structure of a paper extracted from the arXiv. An instance of Paper is corresponed to a paper published in arXiv. Class &lt;em&gt;PaperIO&lt;/em&gt; is important due to its functionality of writing to and reading from files. All disk operations are restricted in this class.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;arxiv-config.txt&lt;/code&gt;&lt;br&gt;
+arXiv manager&amp;#39;s configuration file, the program reads and writes some required information from the file. Currently, two keywords are defined:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ARXIV MIRROR SITE&lt;/strong&gt; specifies the arXiv website&amp;#39;s mirror sites. The default mirror site is &lt;code&gt;http://arxiv.org&lt;/code&gt;. For more mirror sites on arXiv, please Google it with keywords &amp;quot;arXiv mirror site&amp;quot;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ARXIV SUBJECT&lt;/strong&gt; specifies the subject that you are interested in. The default subject is &amp;quot;quant-ph&amp;quot;, which is &amp;quot;quantum physics&amp;quot;. More subjects on arXiv can be found in arbitrary arXiv mirror site.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;arxiv-manager.jar&lt;/code&gt;&lt;br&gt;
+The packed runnable jar, with necessary configuration files.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-extractor&quot;&gt;The Extractor&lt;/h2&gt;
+
+&lt;h2 id=&quot;the-filter&quot;&gt;The Filter&lt;/h2&gt;
+
+&lt;h2 id=&quot;how-to-use&quot;&gt;How to Use&lt;/h2&gt;
+
+&lt;h2 id=&quot;problems-list&quot;&gt;Problems List&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Problem 1&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem Description:&lt;/strong&gt; The program has too many parameters, which makes the command line too lon to type in. And also, the relationship between these parameters are not clear, some of them are independent, while some of them are parentchild relationship.&lt;br&gt;
+&lt;strong&gt;Possible Solution:&lt;/strong&gt;  I wanna try to make the manager as a parser, when running the manager, it will parse the commands in its own running environment, which is the same as the Python parser.&lt;/p&gt;
+
+&lt;h2 id=&quot;more-on-the-arxiv-manager&quot;&gt;More on the arXiv manager&lt;/h2&gt;
+
+&lt;p&gt;If you have any ideas on the program, please feel free to have me announced. You can try following ways to keep us in touch.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Comment on this post. This is highly recommended.&lt;/li&gt;
+&lt;li&gt;Fork the project, and push the modifications to me.&lt;/li&gt;
+&lt;li&gt;Email me. The email can be found &lt;a href=&quot;/research#contact&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <pubDate>Mon, 24 Aug 2015 00:00:00 +0800</pubDate>
+      <link>/blog/arxiv-manager.html</link>
+      <guid isPermaLink="true">/blog/arxiv-manager.html</guid>
+    </item>
+    
+    <item>
       <title>My Research Group - Quark</title>
       <description>&lt;p&gt;Well, actually I have no research group now, but it cannot stop me from wondering what my group name will be if I had one.&lt;/p&gt;
 
@@ -148,7 +225,7 @@
       <title>使用 Commons CLI 开发命令行工具</title>
       <description>&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
 
-&lt;p&gt;在我设计&lt;a href=&quot;ttt&quot;&gt;arXiv Extractor&lt;/a&gt;的时候，想将这个软件设计成命令行工具形式，从而用户可以完成不同的任务。如果自己去解析参数的话，代码太冗长而单调，所以决定服用成熟的代码。&lt;a href=&quot;https://commons.apache.org/proper/commons-cli/&quot;&gt;Commons CLI&lt;/a&gt;满足这样的需求。
+&lt;p&gt;在我设计&lt;a href=&quot;https://github.com/nju-cs-quark/arxiv-manager&quot;&gt;arXiv Manager&lt;/a&gt;的时候，想将这个软件设计成命令行工具形式，从而用户可以完成不同的任务。如果自己去解析参数的话，代码太冗长而单调，所以决定服用成熟的代码。&lt;a href=&quot;https://commons.apache.org/proper/commons-cli/&quot;&gt;Commons CLI&lt;/a&gt;满足这样的需求。
 下面我通过一个完整的例子展示如何准备、开发、测试一个命令行工具。希望本文对有相关需求的读者能有所帮助。&lt;/p&gt;
 
 &lt;p&gt;主要参考资料：
@@ -658,10 +735,14 @@ The packed runnable jar, with necessary config files.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;Problem Description:&lt;/strong&gt; When exporting the project as a runnable jar (TMSimulator.jar is exported in this way), images cannot be load, as the jar cannot find the images.&lt;br&gt;
-&lt;strong&gt;Current Solution:&lt;/strong&gt; This problem happens because the exporting system hasn&amp;#39;t add the necessary files in &lt;code&gt;bin/images&lt;/code&gt; into the jar file. There are two solutions:
-1. Modify the code to add the files.
-2. Add the &lt;code&gt;images&lt;/code&gt; directory into the jar file manually.
-Due to my laziness, I take the latter one. It deserves better solution.&lt;/p&gt;
+&lt;strong&gt;Current Solution:&lt;/strong&gt; This problem happens because the exporting system hasn&amp;#39;t add the necessary files in &lt;code&gt;bin/images&lt;/code&gt; into the jar file. There are two solutions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Modify the code to add the files.&lt;/li&gt;
+&lt;li&gt;Add the &lt;code&gt;images&lt;/code&gt; directory into the jar file manually.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Due to my laziness, I take the latter one. It deserves better solution.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Problem 2&lt;/p&gt;
