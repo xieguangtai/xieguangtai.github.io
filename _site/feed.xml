@@ -68,6 +68,39 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Workshops, Conferences and Journals on Quantum Computation and Quantum Information</title>
+      <description></description>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0800</pubDate>
+      <link>/blog/workshop-conferences-journals-on-qcqi.html</link>
+      <guid isPermaLink="true">/blog/workshop-conferences-journals-on-qcqi.html</guid>
+    </item>
+    
+    <item>
+      <title>Institutes on Quantum Computation and Quantum Information</title>
+      <description></description>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0800</pubDate>
+      <link>/blog/institutes-on-qcqi.html</link>
+      <guid isPermaLink="true">/blog/institutes-on-qcqi.html</guid>
+    </item>
+    
+    <item>
+      <title>Courses on Quantum Computation and Quantum Information</title>
+      <description>&lt;p&gt;&lt;a href=&quot;http://qserver.usc.edu/meetings/quantum-courses/&quot;&gt;http://qserver.usc.edu/meetings/quantum-courses/&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0800</pubDate>
+      <link>/blog/courses-on-qcqi.html</link>
+      <guid isPermaLink="true">/blog/courses-on-qcqi.html</guid>
+    </item>
+    
+    <item>
+      <title>Books on Quantum Computation and Quantum Information</title>
+      <description></description>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0800</pubDate>
+      <link>/blog/books-on-qcqi.html</link>
+      <guid isPermaLink="true">/blog/books-on-qcqi.html</guid>
+    </item>
+    
+    <item>
       <title>arXiv Manager</title>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Copyright 2014, Kun Wang, &lt;a href=&quot;http://www.quantumman.me/&quot;&gt;http://www.quantumman.me/&lt;/a&gt;.&lt;br&gt;
@@ -101,7 +134,7 @@ There are still too many unrelated papers after you extracted by subjects. For t
 &lt;p&gt;As there are papers which contain keywords from different lists, we must do not mark them more than once.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;src\...\paper&lt;/code&gt;&lt;br&gt;
-In this package, we define a &lt;em&gt;Paper&lt;/em&gt; class which represents the structure of a paper extracted from the arXiv. An instance of Paper is corresponed to a paper published in arXiv. Class &lt;em&gt;PaperIO&lt;/em&gt; is important due to its functionality of writing to and reading from files. All disk operations are restricted in this class.&lt;/p&gt;
+In this package, we define a &lt;em&gt;Paper&lt;/em&gt; class which represents the structure of a paper extracted from the arXiv. An instance of Paper is corresponded to a paper published in arXiv. Class &lt;em&gt;PaperIO&lt;/em&gt; is important due to its functionality of writing to and reading from files. All disk operations are restricted in this class.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;arxiv-config.txt&lt;/code&gt;&lt;br&gt;
 arXiv manager&amp;#39;s configuration file, the program reads and writes some required information from the file. Currently, two keywords are defined:&lt;/p&gt;
@@ -109,16 +142,63 @@ arXiv manager&amp;#39;s configuration file, the program reads and writes some re
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;ARXIV MIRROR SITE&lt;/strong&gt; specifies the arXiv website&amp;#39;s mirror sites. The default mirror site is &lt;code&gt;http://arxiv.org&lt;/code&gt;. For more mirror sites on arXiv, please Google it with keywords &amp;quot;arXiv mirror site&amp;quot;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ARXIV SUBJECT&lt;/strong&gt; specifies the subject that you are interested in. The default subject is &amp;quot;quant-ph&amp;quot;, which is &amp;quot;quantum physics&amp;quot;. More subjects on arXiv can be found in arbitrary arXiv mirror site.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ARXIV STORAGE DIRECTORY&lt;/strong&gt; specifies the directory where all extracted papers are stored.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;These three domains must be set before the program is running.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;arxiv-manager.jar&lt;/code&gt;&lt;br&gt;
 The packed runnable jar, with necessary configuration files.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-extractor&quot;&gt;The Extractor&lt;/h2&gt;
-
-&lt;h2 id=&quot;the-filter&quot;&gt;The Filter&lt;/h2&gt;
-
 &lt;h2 id=&quot;how-to-use&quot;&gt;How to Use&lt;/h2&gt;
+
+&lt;p&gt;This is a quick help ducment offered by the program.
+&lt;img src=&quot;/images/posts/post-arxiv-manager-1.png&quot; alt=&quot;help document&quot;&gt;
+The quick help is quite enough for the user to understand how to play with the program, here I only give some typical usage.&lt;br&gt;
+Before running the program, the configuration file (arxiv-config.txt) must be set properly, especially the &lt;strong&gt;ARXIV STORAGE DIRECTORY&lt;/strong&gt; option. This option lets the program know where to store these extracted papers. For example, I set this option to be &amp;quot;D:/workspaces/arxiv/&amp;quot;, and it looks like this:
+&lt;img src=&quot;/images/posts/post-arxiv-manager-2.png&quot; alt=&quot;help document&quot;&gt;
+where directory &lt;code&gt;keywords&lt;/code&gt; are used to store keywords list:
+&lt;img src=&quot;/images/posts/post-arxiv-manager-3.png&quot; alt=&quot;help document&quot;&gt;
+directory &lt;code&gt;new-submissions&lt;/code&gt; are used to store extracted new submission papers, 
+and directory &lt;code&gt;archive-contents&lt;/code&gt; are used to store extracted archive papers (by -m and -y commands).&lt;/p&gt;
+
+&lt;h3 id=&quot;keywords-list&quot;&gt;Keywords list&lt;/h3&gt;
+
+&lt;p&gt;There are three keywords lists here: abstract-keywords.txt, author-keywords.txt and title-keywords.txt. For each keyword you defined in the file, the manager will filter each paper&amp;#39;s corresponding part (abstract, authors and title) by this keyword. One line for one keyword. It should be remembered that the keywords defined in a particular file will only filter the corresponding paper&amp;#39;s information part. Here is my abstract-keywords.txt file as an exmaple.
+&lt;img src=&quot;/images/posts/post-arxiv-manager-4.png&quot; alt=&quot;help document&quot;&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;typical-scenarios&quot;&gt;Typical scenarios&lt;/h3&gt;
+
+&lt;p&gt;The following are some typical scenarios of using the manager.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;java -jar arxiv-manager.jar -h&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Run the manager with the help (&lt;code&gt;-h&lt;/code&gt;) command, so that you can have a detailed explanation on all commands.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;java -jar arxiv-manager.jar -e -n&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Run the manager with extraction (&lt;code&gt;-e&lt;/code&gt;) and new submission (&lt;code&gt;-n&lt;/code&gt;) commands, so that you can extract the new submissions from arXiv, the extracted papers will store in the local disk directory which you specified in the config.txt file.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;java -jar arxiv-manager.jar -e -m 0304 -f&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Run the manager with extraction (&lt;code&gt;-e&lt;/code&gt;), month(&lt;code&gt;-m 0304&lt;/code&gt;) and filter (&lt;code&gt;-f&lt;/code&gt;) commands, so that you can extract all papers submitted in month 04/2003 from arXiv, and filter them with keywords defined in the keywords list. The extracted papers will store in the local disk directory which you specified in the config.txt file.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;java -jar arxiv-manager.jar -f &amp;quot;D:\workspaces\arxiv\new-submissions\20150827-papers.txt, D:\workspaces\arxiv\new-submissions\20150828-papers.txt&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Run the manager with filter (&lt;code&gt;-f&lt;/code&gt;) command, so that you can filter the given files. Files must be given with absolute path, and each file is seperated by a comma. File &amp;quot;20150827-papers.txt&amp;quot; and &amp;quot;20150828-papers.txt&amp;quot; is pre-generated by the manager with -e commands.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-do-i-make-use-of-the-manager&quot;&gt;How do I make use of the manager&lt;/h3&gt;
+
+&lt;p&gt;I setup a task scheduler in my Windows system, which will run the scrpit given below everyday in 10:00. In this way, I can read my interested latest submission of papers on quant-ph subject everyday.
+&lt;img src=&quot;/images/posts/post-arxiv-manager-5.png&quot; alt=&quot;help document&quot;&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;problems-list&quot;&gt;Problems List&lt;/h2&gt;
 

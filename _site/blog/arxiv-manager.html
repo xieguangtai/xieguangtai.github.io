@@ -103,7 +103,7 @@ There are still too many unrelated papers after you extracted by subjects. For t
 <p>As there are papers which contain keywords from different lists, we must do not mark them more than once.</p>
 
 <p><code>src\...\paper</code><br>
-In this package, we define a <em>Paper</em> class which represents the structure of a paper extracted from the arXiv. An instance of Paper is corresponed to a paper published in arXiv. Class <em>PaperIO</em> is important due to its functionality of writing to and reading from files. All disk operations are restricted in this class.</p>
+In this package, we define a <em>Paper</em> class which represents the structure of a paper extracted from the arXiv. An instance of Paper is corresponded to a paper published in arXiv. Class <em>PaperIO</em> is important due to its functionality of writing to and reading from files. All disk operations are restricted in this class.</p>
 
 <p><code>arxiv-config.txt</code><br>
 arXiv manager&#39;s configuration file, the program reads and writes some required information from the file. Currently, two keywords are defined:</p>
@@ -111,16 +111,63 @@ arXiv manager&#39;s configuration file, the program reads and writes some requir
 <ol>
 <li><strong>ARXIV MIRROR SITE</strong> specifies the arXiv website&#39;s mirror sites. The default mirror site is <code>http://arxiv.org</code>. For more mirror sites on arXiv, please Google it with keywords &quot;arXiv mirror site&quot;.</li>
 <li><strong>ARXIV SUBJECT</strong> specifies the subject that you are interested in. The default subject is &quot;quant-ph&quot;, which is &quot;quantum physics&quot;. More subjects on arXiv can be found in arbitrary arXiv mirror site.</li>
+<li><strong>ARXIV STORAGE DIRECTORY</strong> specifies the directory where all extracted papers are stored.</li>
 </ol>
+
+<p>These three domains must be set before the program is running.</p>
 
 <p><code>arxiv-manager.jar</code><br>
 The packed runnable jar, with necessary configuration files.</p>
 
-<h2 id="the-extractor">The Extractor</h2>
-
-<h2 id="the-filter">The Filter</h2>
-
 <h2 id="how-to-use">How to Use</h2>
+
+<p>This is a quick help ducment offered by the program.
+<img src="/images/posts/post-arxiv-manager-1.png" alt="help document">
+The quick help is quite enough for the user to understand how to play with the program, here I only give some typical usage.<br>
+Before running the program, the configuration file (arxiv-config.txt) must be set properly, especially the <strong>ARXIV STORAGE DIRECTORY</strong> option. This option lets the program know where to store these extracted papers. For example, I set this option to be &quot;D:/workspaces/arxiv/&quot;, and it looks like this:
+<img src="/images/posts/post-arxiv-manager-2.png" alt="help document">
+where directory <code>keywords</code> are used to store keywords list:
+<img src="/images/posts/post-arxiv-manager-3.png" alt="help document">
+directory <code>new-submissions</code> are used to store extracted new submission papers, 
+and directory <code>archive-contents</code> are used to store extracted archive papers (by -m and -y commands).</p>
+
+<h3 id="keywords-list">Keywords list</h3>
+
+<p>There are three keywords lists here: abstract-keywords.txt, author-keywords.txt and title-keywords.txt. For each keyword you defined in the file, the manager will filter each paper&#39;s corresponding part (abstract, authors and title) by this keyword. One line for one keyword. It should be remembered that the keywords defined in a particular file will only filter the corresponding paper&#39;s information part. Here is my abstract-keywords.txt file as an exmaple.
+<img src="/images/posts/post-arxiv-manager-4.png" alt="help document"></p>
+
+<h3 id="typical-scenarios">Typical scenarios</h3>
+
+<p>The following are some typical scenarios of using the manager.</p>
+
+<blockquote>
+<p>java -jar arxiv-manager.jar -h</p>
+</blockquote>
+
+<p>Run the manager with the help (<code>-h</code>) command, so that you can have a detailed explanation on all commands.</p>
+
+<blockquote>
+<p>java -jar arxiv-manager.jar -e -n</p>
+</blockquote>
+
+<p>Run the manager with extraction (<code>-e</code>) and new submission (<code>-n</code>) commands, so that you can extract the new submissions from arXiv, the extracted papers will store in the local disk directory which you specified in the config.txt file.</p>
+
+<blockquote>
+<p>java -jar arxiv-manager.jar -e -m 0304 -f</p>
+</blockquote>
+
+<p>Run the manager with extraction (<code>-e</code>), month(<code>-m 0304</code>) and filter (<code>-f</code>) commands, so that you can extract all papers submitted in month 04/2003 from arXiv, and filter them with keywords defined in the keywords list. The extracted papers will store in the local disk directory which you specified in the config.txt file.</p>
+
+<blockquote>
+<p>java -jar arxiv-manager.jar -f &quot;D:\workspaces\arxiv\new-submissions\20150827-papers.txt, D:\workspaces\arxiv\new-submissions\20150828-papers.txt&quot;</p>
+</blockquote>
+
+<p>Run the manager with filter (<code>-f</code>) command, so that you can filter the given files. Files must be given with absolute path, and each file is seperated by a comma. File &quot;20150827-papers.txt&quot; and &quot;20150828-papers.txt&quot; is pre-generated by the manager with -e commands.</p>
+
+<h3 id="how-do-i-make-use-of-the-manager">How do I make use of the manager</h3>
+
+<p>I setup a task scheduler in my Windows system, which will run the scrpit given below everyday in 10:00. In this way, I can read my interested latest submission of papers on quant-ph subject everyday.
+<img src="/images/posts/post-arxiv-manager-5.png" alt="help document"></p>
 
 <h2 id="problems-list">Problems List</h2>
 
