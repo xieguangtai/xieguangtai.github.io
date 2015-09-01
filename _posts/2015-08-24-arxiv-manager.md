@@ -83,7 +83,8 @@ Run the manager with filter (`-f`) command, so that you can filter the given fil
 
 I setup a task scheduler in my Windows system, which will run the scrpit given below everyday in 10:00. In this way, I can read my interested latest submission of papers on quant-ph subject everyday.
 ![help document]({{ site.url }}/images/posts/post-arxiv-manager-5.png)
-
+A glimpse of filtered papers.
+![help document]({{ site.url }}/images/posts/post-arxiv-manager-6.png)
 ## Problems List
 
 > Problem 1
