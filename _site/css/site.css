@@ -1,6 +1,5 @@
 @import url('syntax.css');
 @import url('font/icomoon79565/style.css');
-/*@import url('bootstrap.min.css');*/
 
 /* Global Reset */
 * {
@@ -24,12 +23,13 @@ body {
   font-size: 110%;
 }
 
-.top-bar {
+/* 在主页最上方设置一道指定颜色的 bar */
+/*.top-bar {
   background-color: lightyellow;
   line-height: 32px;
   color: #666;
-  border-bottom: 5px solid #ed5252 ;;
-}
+  border-bottom: 5px solid #3366BB ;;
+}*/
 
 h1, h2, h3 {
 	 /*定义标题,字标题字体大小*/
@@ -91,18 +91,23 @@ table td, table th {
 
 
 /* Common */
-
+/* Set the color of links. Based on wikipedia: https://en.wikipedia.org/wiki/Help:Link_color
+ * link style           type                                    color
+ * blue link            link to a page that currently exists    #0645AD
+ * dark blue link       link to a page that you have already visited    #0B0080 
+ * red link             link to a page that does not currently exist    #CC2200
+ */
 a {
-  color: #e0115f;     /* Set the color of links. Optional: #3052b3 blue, #e0115f, pink*/
+  color: #0645AD;     
   text-decoration: none;
 }
 
 a:active {
-  color: #e0115f;
+  color: #0645AD;
 }
 
 a:visited {
-  color: #e0115f;
+  color: #0645AD;
 }
 
 a:hover {
@@ -110,14 +115,15 @@ a:hover {
 }
 
 a.discreet {
-  color: #222;
+  color: #CC2200;
 }
 
 .fancy, section, article {
   /*font-family: "proxima-nova", Helvetica, Arial, sans-serif;*/
   /*定义article字体
   font-family: Georgia,"Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;*/
-  font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft Yahei,Arial;
+  /*font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft Yahei,Arial;*/
+  font-family: Georgia,"Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;
   line-height: 170%;
 }
 
@@ -184,8 +190,7 @@ article {
 
 /* Header and navigation */
 header {
-  /*font-family: 'Asap', Helvetica, Arial, sans-serif;*/
-  font-family: "Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft Yahei,Arial; /*导航条字体*/
+  font-family: Georgia, "Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft Yahei,Arial; /*导航条字体*/
   font-weight: bold;
 }
 

@@ -30,8 +30,11 @@
 </head>
 
 <body>
+<!-- 
+  禁用 top-bar：就是在主页的最上面显示一个横向的标题栏
   <div class="top-bar">
   </div>
+ -->
 
   <div class="header-container">
     <header class="inner">
@@ -42,16 +45,14 @@
         <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">项目</a>
         <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">博客</a>
         <a class="{% if page.category == 'quark' %} selected {% endif %}" href="/quark/">Quark</a>
-        <!-- <a href="https://github.com/kun-wang">Github</a>       -->
       </nav>
       {% else %}
       <nav>
         <a class="{% if page.category == 'home' %} selected {% endif %}" href="/">Home</a>
         <a class="{% if page.category == 'research' %} selected {% endif %}" href="/research/">Research</a>
-        <a class="{% if page.category == 'projects' %} selected {% endif %}" href="/project/">Project</a>
+        <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Project</a>
         <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
         <a class="{% if page.category == 'quark' %} selected {% endif %}" href="/quark/">Quark</a>
-        <!-- <a href="https://github.com/kun-wang">Github</a> -->
       </nav>
       {% endif %}
 
