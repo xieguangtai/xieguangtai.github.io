@@ -7,6 +7,11 @@
 # supplement: [talk supplement type, be 'Slide', 'Lecture', 'Broke' or 'Link'] 
 
 #####################################################################
+- title: Simulations of Three State Discrete Quantum Walks
+  placedate: Seminar held by quantum computing group and quantum optics group of NJU, September 11, 2015.
+  url: /files/talks/20150911-simualtion-of-three-state-discrete-quantum-walks.pdf
+  supplement: Slide
+
 - title: CNOT Gate Implemented by Quantum Teleportation
   placedate: Seminar held by quantum computing group and quantum optics group of NJU, April 24, 2015.
   url: /files/talks/20150424-quantum-teleportation-cnot-gate.pdf

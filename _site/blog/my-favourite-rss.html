@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
-    Turing Machine Simulator
+    Some Favourite RSS
     
   </title>
   <link rel="stylesheet" href="../css/site.css">
@@ -63,100 +63,30 @@
 
 <article>
   <h1 class="inner">
-    Turing Machine Simulator
+    Some Favourite RSS
   </h1>
 
-  <p class="meta">Friday 29 May 2015</p>
+  <p class="meta">Sunday 30 August 2015</p>
 
   <div id="menu"></div>
   <div id="main" class="span9">
   <div class="post">
-    <blockquote>
-<p>Copyright 2014, Kun Wang (<a href="mailto:nju.wangkun@gmail.com">nju.wangkun@gmail.com</a>).<br>
-Department of Computer Science &amp; Technology, Nanjing University, China.</p>
-</blockquote>
-
-<h2 id="introduction">Introduction</h2>
-
-<p>This is a Turing machine simulator based on a nice Java Turing machine simulator from <a href="http://introcs.cs.princeton.edu/java/74turing/">http://introcs.cs.princeton.edu/java/74turing/</a>. You can find the project in <a href="https://github.com/kun-wang/turing-machine-simulator">GitHub</a>. Feel free to fork, modify it
-.
-The syntax of Turing machine is totally from the book of
-&quot;<em>Introduction to Models of Computation</em>&quot; by professor Fangmin Song, which you can buy from <a href="http://www.amazon.cn/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E7%94%9F%E7%B3%BB%E5%88%97%E6%95%99%E6%9D%90-%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B%E5%AF%BC%E5%BC%95-%E5%AE%8B%E6%96%B9%E6%95%8F/dp/B008N6TA4U/ref=sr_1_1?ie=UTF8&amp;qid=1421406550&amp;sr=8-1&amp;keywords=%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B%E5%AF%BC%E5%BC%95">Amazon</a>.</p>
-
-<h2 id="description">Description</h2>
-
-<p><code>bin</code><br>
-Contains the compiled .class files. The &quot;images&quot; sub-directory is very important as it stores the required images for the simulator. In the next update, I will try to move it out of the &quot;bin&quot; directory.</p>
-
-<p><code>files</code><br>
-Contains the program description for specific operations. Examples include:</p>
-
-<ul>
-<li><strong>Adder.tur</strong>: a program for adding two non-negative integers.</li>
-<li><strong>copyString.tur</strong>: a program for copy a string of <em>11...11</em>s.</li>
-</ul>
-
-<p>In these two files, I gave a detail description of the requirements for writing a program that can be accepted by the simulator.</p>
-
-<p><code>src</code><br>
-Source files of the simulator.</p>
-
-<p><em>All of the above three directories are required for running the simulator.</em></p>
-
-<p><code>introduction.pptx</code><br>
-Actually, the Turing machine simuator is a project for the third assignment of the course <strong>Software Architecture</strong>. <code>introduction.pptx</code> is my presentation on the course, which introduces basic ideas of the project, and the design patterns that have been applied.</p>
-
-<p><code>TMSimulator.7z</code><br>
-The packed runnable jar, with necessary config files.</p>
-
-<h2 id="how-to-use">How to Use</h2>
-
-<p>There are two different ways to setup the simulator.</p>
-
-<h3 id="method-1-running-the-jar-file">Method 1: Running the jar file</h3>
-
-<p><em>Step1.</em> Download the repository.<br>
-<em>Step2.</em> Unpack <code>TMSimulator.7z</code>.<br>
-<em>Step3.</em> Click the <code>run.bat</code> batch file.<br>
-<strong>Warnning!</strong> The <code>files</code> and <code>TMSimulator.jar</code> must be in the same directory with <code>run.bat</code>. </p>
-
-<h3 id="method-2-importing-the-project-into-eclipse">Method 2: Importing the project into eclipse</h3>
-
-<p><em>Step1.</em> Download the repository.<br>
-<em>Step2.</em> Import into eclipse.<br>
-<em>Step3.</em> Run it!  </p>
-
-<h2 id="problems-list">Problems List</h2>
-
-<blockquote>
-<p>Problem 1</p>
-</blockquote>
-
-<p><strong>Problem Description:</strong> When exporting the project as a runnable jar (TMSimulator.jar is exported in this way), images cannot be load, as the jar cannot find the images.<br>
-<strong>Current Solution:</strong> This problem happens because the exporting system hasn&#39;t add the necessary files in <code>bin/images</code> into the jar file. There are two solutions:</p>
+    <p>Though it seems that <a href="https://en.wikipedia.org/wiki/RSS">RSS</a> are out-of-date, some outstanding researcher are still blogging with RSS offered. Here are some. I use <a href="https://feedly.com">Feedly</a> to be my RSS reader.</p>
 
 <ol>
-<li>Modify the code to add the files.</li>
-<li>Add the <code>images</code> directory into the jar file manually.</li>
-</ol>
-
-<p>Due to my laziness, I take the latter one. It deserves better solution.</p>
-
-<blockquote>
-<p>Problem 2</p>
-</blockquote>
-
-<p><strong>Problem Description:</strong> The input and output have been restricted into binary values, which are required by the simulator yet are not that human friendly.<br>
-<strong>Possible Solution:</strong> One encode module to translate the input decimal integers into corresponding bianry values, then feeding them into the simulator. One decode module to translate the output bianry value into corresponding decimal integer, then displaying out.</p>
-
-<h2 id="more-on-the-simulator">More on the Simulator</h2>
-
-<p>If you have any ideas on the project, please feel free to let me know. You can try following ways to keep us in touch.</p>
-
-<ol>
-<li>Comment on this post. This is highly recommended.</li>
-<li>Fork the project, and push the new version to me.</li>
-<li>Email me. The email can be found <a href="/research#contact">here</a>.</li>
+<li><a href="http://www.scottaaronson.com/blog/"><strong><em>Shtetl-Optimized</em></strong></a>. The author <a href="https://en.wikipedia.org/wiki/Scott_Aaronson#cite_note-scottaaronson-8">Scott Aaronson</a> is a theoretical computer scientist and faculty member in the Electrical Engineering and Computer Science department at the Massachusetts Institute of Technology. This is really a much-read blog which focus on many parts of science: computer science, quantum science and more.</li>
+<li><a href="http://matt.might.net/"><strong><em>Matt Might&#39;s Blog</em></strong></a>. Professor Matt Might is not only a good researcher, but also a very nice advisor. Many of his blogs are dedicated to educating how to improve your learning ability and working efficiency.</li>
+<li><a href="http://dabacon.org/pontiff/"><strong><em>The Quantum Pontiff</em></strong></a>. Another nice blog on quantum computing. </li>
+<li><a href="http://michaelnielsen.org/blog"><strong><em>Michael Nielsen&#39;s Blog</em></strong></a>. Michael Nielsen is coauthor of the famous book <em>Quantum Computation and Quantum Information</em>. This blog is on quantum computation, computer science, and more.</li>
+<li><a href="https://news.google.com/news/section?hl=en&amp;pz=1&amp;ned=us&amp;q=quantum+computing"><strong><em>Quantum Computation from Google News</em></strong></a>. Google News offers a good way to catch up with the latest news on what you are interested. You can setup your taste on <a href="https://news.google.com/news/">Google News</a>.</li>
+<li><a href="http://www.sciencedaily.com/news/matter_energy/quantum_computing/"><strong><em>Quantum Computation From ScienceDaily</em></strong></a>. More news on quantum computation from another famous science website ScienceDaily.</li>
+<li><a href="http://cacm.acm.org/blogs/blogroll/"><strong><em>CACM Blogs</em></strong></a>. <a href="http://cacm.acm.org/">CACM</a> is a monthly magazine of the Association for Computing Machinery (ACM). Articles are intended for readers with backgrounds in all areas of computer science and information systems.</li>
+<li><a href="http://jacm.acm.org/"><strong><em>Journal of the ACM</em></strong></a>. The Journal of the ACM is a peer-reviewed scientific journal covering computer science in general, especially theoretical aspects. It is an official journal of the Association for Computing Machinery.</li>
+<li><a href="http://spectrum.ieee.org/"><strong><em>IEEE Spectrum</em></strong></a>. IEEE Spectrum is the flagship magazine and website of the IEEE, the world’s largest professional organization devoted to engineering and the applied sciences. Our charter is to keep over 400,000 members informed about major trends and developments in technology, engineering, and science. Our blogs, podcasts, news and features stories, videos and interactive infographics engage our visitors with clear explanations about emerging concepts and developments with details they can’t get elsewhere (cited from <a href="http://spectrum.ieee.org/static/aboutus">About IEEE Spectrum</a>).</li>
+<li><a href="http://www.technologyreview.com/"><strong><em>MIT Technology Review</em></strong></a>. MIT Technology Review is a magazine published by the Massachusetts Institute of Technology. It is focused on new technology and how it is commercialized; was mass-marketed to the public; and was targeted at senior executives, researchers, financiers, and policymakers, as well as MIT alumni. MIT Technology Review is also well known for its annual <a href="http://www.technologyreview.com/lists/innovators-under-35/">TR35</a> list of the top 35 innovators in the world under the age of 35.</li>
+<li><a href="https://uwaterloo.ca/institute-for-quantum-computing/news"><strong><em>IQC - Waterloo</em></strong></a>. A collection of news from <a href="https://uwaterloo.ca/institute-for-quantum-computing/">Institute for Quantum Computing, University of Waterloo</a>. This institute gains its reputation for the brilliant research on quantum computation and quantum information, both theoretical and experimental.</li>
+<li><a href="http://journals.aps.org/prl/"><strong><em>News from PRL</em></strong></a>. </li>
+<li><a href="http://phys.org/physics-news/quantum-physics/"><strong><em>Quantum Physics News</em></strong></a>. <a href="http://phys.org">Phys.org</a> is a science, research and technology news website specializing in the hard science subjects of physics, space and earth science, biology, chemistry, electronics, nanotechnology and technology in general. It is known for timely updates of scientific breakthroughs and press releases from major research labs and universities across the world. The site also publishes daily reports, blogs and exclusive comprehensive articles on new peer-reviewed scientific papers.</li>
 </ol>
 
   </div>
