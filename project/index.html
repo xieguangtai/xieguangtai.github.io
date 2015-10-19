@@ -5,8 +5,17 @@ description: Kun Wang's finished or ongoing projects.
 category: project
 ---
 
-<div class="inner">
+<!-- -------------------------------------------------------------- -->
+<!-- A Summary of Extracted Papers -------------------------------- -->
+<!-- -------------------------------------------------------------- -->
+<section class="inner">
+  <ul class="posts">
+    {% for paper in site.arxiv %}
+      <li class="listing-item">
+        <a href="{{ site.url }}{{ paper.url }}" title="{{ paper.title }}">{{ paper.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
 
-under construction...
-
-</div>
+<br>

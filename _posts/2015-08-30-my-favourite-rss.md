@@ -4,7 +4,7 @@ title: Some Favourite RSS
 categories: [research]
 ---
 
-Though it seems that [RSS](https://en.wikipedia.org/wiki/RSS) are out-of-date, some outstanding researcher are still blogging with RSS offered. Here are some. I use [Feedly](https://feedly.com) to be my RSS reader.
+Though it seems that [RSS](https://en.wikipedia.org/wiki/RSS) is out-of-date, some outstanding researchers are still blogging with RSS offered. Here are some. I use [Feedly](https://feedly.com) as my RSS reader.
 
 1. [***Shtetl-Optimized***](http://www.scottaaronson.com/blog/). The author [Scott Aaronson](https://en.wikipedia.org/wiki/Scott_Aaronson#cite_note-scottaaronson-8) is a theoretical computer scientist and faculty member in the Electrical Engineering and Computer Science department at the Massachusetts Institute of Technology. This is really a much-read blog which focus on many parts of science: computer science, quantum science and more.
 2. [***Matt Might's Blog***](http://matt.might.net/). Professor Matt Might is not only a good researcher, but also a very nice advisor. Many of his blogs are dedicated to educating how to improve your learning ability and working efficiency.
