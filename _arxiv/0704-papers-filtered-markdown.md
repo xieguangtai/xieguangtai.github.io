@@ -172,7 +172,7 @@ Andris Ambainis
 http://arxiv.org/abs/0704.3628  
 <blockquote>
 <p>
-We present an O(\sqrt{N}) discrete query quantum algorithm for evaluating balanced binary NAND formulas and an O(N^{{1/2}+O(\frac{1}{\sqrt{\log N}})}) discrete query quantum algorithm for evaluating arbitrary binary NAND formulas.
+We present an O(\sqrt{N}) discrete query quantum algorithm for evaluating balanced binary NAND formulas and an O(N^{ {1/2}+O(\frac{1}{\sqrt{\log N}})}) discrete query quantum algorithm for evaluating arbitrary binary NAND formulas.
 </p>
 </blockquote>
 
