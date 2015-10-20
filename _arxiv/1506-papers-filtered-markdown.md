@@ -14,29 +14,7 @@ In this paper, we consider the quantum walk on $\mathbb{Z}$ with attachment of o
 
 ------
 
-**2.    An entangled-LED driven quantum relay over 1 km**  
-C. Varnava, R. M. Stevenson, J. Nilsson, J. Skiba-Szymanska, B. Dzurňák, M. Lucamarini, R. V. Penty, I. Farrer, D.A. Ritchie, A. J. Shields  
-http://www.arxiv.org/abs/1506.00518  
-<blockquote>
-<p>
-Quantum cryptography allows confidential information to be communicated between two parties, with secrecy guaranteed by the laws of nature alone. However, upholding guaranteed secrecy over quantum communication networks poses a further challenge, as classical receive-and-resend routing nodes can only be used conditional of trust by the communicating parties. Here, we demonstrate the operation of a quantum relay over 1 km of optical fiber, which teleports a sequence of photonic quantum bits to a receiver by utilizing entangled photons emitted by a semiconductor LED. The average relay fidelity of the link is 0.90+/-0.03, exceeding the classical bound of 0.75 for the set of states used, and sufficiently high to allow error correction. The fundamentally low multi-photon emission statistics and the integration potential of the source present an appealing platform for future quantum networks.
-</p>
-</blockquote>
-
-------
-
-**3.    Active error correction for Abelian and non-Abelian anyons**  
-James R. Wootton, Adrian Hutter  
-http://www.arxiv.org/abs/1506.00524  
-<blockquote>
-<p>
-We consider a class of decoding algorithms that are applicable to error correction for both Abelian and non-Abelian anyons. This class includes multiple algorithms that have recently attracted attention, including the Bravyi-Haah RG decoder. They are applied to both the problem of single shot error correction (with perfect syndrome measurements) and that of active error correction (with noisy syndrome measurements). For Abelian models we provide a threshold proof in both cases, showing that there is a finite noise threshold under which errors can be arbitrarily suppressed when any decoder in this class is used. For non-Abelian models such a proof is found for the single shot case. The means by which decoding may be performed for active error correction of non-Abelian anyons is studied in detail. Differences with the Abelian case are discussed.
-</p>
-</blockquote>
-
-------
-
-**4.    A discrete spacetime model for quantum mechanics**  
+**2.    A discrete spacetime model for quantum mechanics**  
 Antonio Sciarretta  
 http://www.arxiv.org/abs/1506.00817  
 <blockquote>
@@ -47,29 +25,7 @@ This paper presents a simple model that mimics quantum mechanics (QM) results in
 
 ------
 
-**5.    A distance measure underlies quantum channel discrimination and quantum parameter estimation**  
-Haidong Yuan, Chi-Hang Fred Fung  
-http://www.arxiv.org/abs/1506.00819  
-<blockquote>
-<p>
-In this article we propose a metric on the space of quantum channels which can be efficiently computed using semi-definite programming and show how this metric determines the prefect discrimination between quantum channels and the ultimate precision limit for quantum parameter estimation. This metric thus provides a unified framework for these two related, but so far largely separated fields. New insights can then be gained for studies in both fields, which we demonstrate with two examples: first we derive a lower bound on the minimum number of uses needed for perfect discrimination between two quantum channels, which, we show, is closely related to the Heisenberg limit in quantum parameter estimation; second we show that sequential strategy has advantage over parallel strategy in quantum parameter estimation by providing an example inspired by studies in quantum channel discrimination.
-</p>
-</blockquote>
-
-------
-
-**6.    Measurement-based Quantum Communication**  
-M. Zwerger, H.J. Briegel, W. Dür  
-http://www.arxiv.org/abs/1506.00985  
-<blockquote>
-<p>
-We review and discuss the potential of using measurement-based elements in quantum communication schemes, where certain tasks are realized with the help of entangled resource states that are processed by measurements. We consider long-range quantum communication based on the transmission of encoded quantum states, where encoding, decoding and syndrome read-out are implemented using small-scale resource states. We also discuss entanglement-based schemes and consider measurement-based quantum repeaters. An important element in these schemes is entanglement purification, which can also be implemented in a measurement-based way. We analyze the influence of noise and imperfections in these schemes, and show that measurement-based implementation allows for very large error thresholds of the order of 10\% noise per qubit and more. We show how to obtain optimal resource states for different tasks, and discuss first experimental realizations of measurement-based quantum error correction using trapped ions and photons.
-</p>
-</blockquote>
-
-------
-
-**7.    From Disordered Quantum Walk to Physics of Off-diagonal Disorder**  
+**3.    From Disordered Quantum Walk to Physics of Off-diagonal Disorder**  
 Qifang Zhao, Jiangbin Gong  
 http://www.arxiv.org/abs/1506.01189  
 <blockquote>
@@ -80,19 +36,7 @@ Systems with purely off-diagonal disorder have peculiar features such as the loc
 
 ------
 
-**8.    Controllable coupling between a nanomechanical resonator and a coplanar-waveguide resonator via a superconducting flux qubit**  
-Wei Xiong, Da-Yu Jin, Jun Jing, Chi-Hang Lam, J. Q. You  
-Phys. Rev. A 92, 032318 (2015)  
-http://www.arxiv.org/abs/1506.01801  
-<blockquote>
-<p>
-We study a tripartite quantum system consisting of a coplanar-waveguide (CPW) resonator and a nanomechanical resonator (NAMR) connected by a flux qubit, where the flux qubit has a large detuning from both resonators. By a unitray transformation and a second-order approximation, we obtain a strong and controllable (i.e., magnetic-field-dependent) effective coupling between the NAMR and the CPW resonator. Due to the strong coupling, vacuum Rabi splitting can be observed from the voltage-fluctuation spectrum of the CPW resonator. We further study the properties of single photon transport as inferred from the reflectance or equivalently the transmittance. We show that the reflectance and the corresponding phase shift spectra both exhibit doublet of narrow spectral features due to vacuum Rabi splitting. By tuning the external magnetic field, the reflectance and the phase shift can be varied from 0 to 1 and $-\pi$ to $\pi$, respectively. The results indicate that this hybrid quantum system can act as a quantum router.
-</p>
-</blockquote>
-
-------
-
-**9.    On the behavior of quantum walks confined to a cycle coupled with a half line**  
+**4.    On the behavior of quantum walks confined to a cycle coupled with a half line**  
 Forrest Ingram-Johnson, Chaobin Liu, Nelson Petulante  
 http://www.arxiv.org/abs/1506.01940  
 <blockquote>
@@ -103,7 +47,7 @@ When confined to a topological environment consisting of a cycle coupled with a 
 
 ------
 
-**10.    Quantum walks in the density operator picture**  
+**5.    Quantum walks in the density operator picture**  
 Chaobin Liu  
 http://www.arxiv.org/abs/1506.02493  
 <blockquote>
@@ -114,19 +58,7 @@ A new approach to quantum walks is presented. Considering a quantum system under
 
 ------
 
-**11.    A compact and reconfigurable silicon nitride time-bin entanglement circuit**  
-C. Xiong, X. Zhang, A. Mahendra, J. He, D.-Y. Choi, C. J. Chae, D. Marpaung, A. Leinse, R. G. Heideman, M. Hoekman, C. G. H. Roeloffzen, R. M. Oldenbeuving, P. W. L. van Dijk, C. Taddei, P. H. W. Leong, B. J. Eggleton  
-Optica Vol. 2, Issue 8, pp. 724-727 (2015)  
-http://www.arxiv.org/abs/1506.02758  
-<blockquote>
-<p>
-Photonic chip based time-bin entanglement has attracted significant attention because of its potential for quantum communication and computation. Useful time-bin entanglement systems must be able to generate, manipulate and analyze entangled photons on a photonic chip for stable, scalable and reconfigurable operation. Here we report the first time-bin entanglement photonic chip that integrates time-bin generation, wavelength demultiplexing and entanglement analysis. A two-photon interference fringe with an 88.4% visibility is measured (without subtracting any noise), indicating the high performance of the chip. Our approach, based on a silicon nitride photonic circuit, which combines the low-loss characteristic of silica and tight integration features of silicon, paves the way for scalable real-world quantum information processors.
-</p>
-</blockquote>
-
-------
-
-**12.    Continuous-time quantum walks over connected graphs, amplitudes and invariants**  
+**6.    Continuous-time quantum walks over connected graphs, amplitudes and invariants**  
 Phillip Dukes  
 http://www.arxiv.org/abs/1506.03086  
 <blockquote>
@@ -137,51 +69,7 @@ We examine the time dependent amplitude $ \phi_{i}\left( t\right)$ at each verte
 
 ------
 
-**13.    Complete positivity of non-Markovian quantum dynamics**  
-Bj?rn Witt, ?ukasz Rudnicki, Florian Mintert  
-http://www.arxiv.org/abs/1506.03638  
-<blockquote>
-<p>
-We derive a purely algebraic framework for the identification of hierarchy equations of motion that induce completely positive dynamics. As we show with several explicit examples, this permits to construct well-behaved phenomenological models with strongly non-Markovian revivals of quantum coherence.
-</p>
-</blockquote>
-
-------
-
-**14.    Classical Simulation of Quantum Error Correction in a Fibonacci Anyon Code**  
-Simon Burton, Courtney G. Brell, Steven T. Flammia  
-http://www.arxiv.org/abs/1506.03815  
-<blockquote>
-<p>
-Classically simulating the dynamics of anyonic excitations in two-dimensional quantum systems is likely intractable in general because such dynamics are sufficient to implement universal quantum computation. However, processes of interest for the study of quantum error correction in anyon systems are typically drawn from a restricted class that displays significant structure over a wide range of system parameters. We exploit this structure to classically simulate, and thereby demonstrate the success of, an error-correction protocol for a quantum memory based on the universal Fibonacci anyon model. We numerically simulate a phenomenological model of the system and noise processes on lattice sizes of up to 128x128 sites, and find a lower bound on the error-correction threshold of approximately 12.5%, which is comparable to those previously known for abelian and (non-universal) nonabelian anyon models.
-</p>
-</blockquote>
-
-------
-
-**15.    Inverse lattice design and its application to bent waveguides**  
-E. Rivera-Moci?os, E. Sadurní  
-http://www.arxiv.org/abs/1506.03876  
-<blockquote>
-<p>
-This paper is divided in two parts. In the first part, the inverse spectral problem for tight-binding hamiltonians is studied. This problem is shown to have an infinite number of solutions for properly chosen energies. The space of such solutions is characterized by a hypersurface in the space of hopping amplitudes (i.e. couplings), whose dimension is half the number of sites in the array. Low dimensional examples for short chains are carefully studied and a table of exactly solvable inverse problems is provided in terms of Lie algebraic structures. With the aim of providing a method to generate lattice configurations, a set of equations for coupling constants in terms of energies is obtained; this is done by means of a new formula for the calculation of characteristic polynomials. Two examples with randomly generated spectra are studied numerically, leading to peaked distributions of couplings. In the second part of the paper, our results are applied to the design of bent waveguides, reproducing specific spectra below propagation threshold. As a demonstration, the Dirac and the finite oscillator are realized in this way. A few partially isospectral configurations are also presented.
-</p>
-</blockquote>
-
-------
-
-**16.    Constructions and Noise Threshold of Hyperbolic Surface Codes**  
-Nikolas P. Breuckmann, Barbara M. Terhal  
-http://www.arxiv.org/abs/1506.04029  
-<blockquote>
-<p>
-We show how to obtain concrete constructions of homological quantum codes based on tilings of 2D surfaces with constant negative curvature (hyperbolic surfaces). This construction results in two-dimensional quantum codes whose tradeoff of encoding rate versus protection is more favorable than for the surface code. These surface codes would require variable length connections between qubits, as determined by the hyperbolic geometry. We provide numerical estimates of the value of the noise threshold and logical error probability of these codes against independent X or Z noise, assuming noise-free error correction.
-</p>
-</blockquote>
-
-------
-
-**17.    Coherent chemical kinetics as quantum walks I: Reaction operators for radical pairs**  
+**7.    Coherent chemical kinetics as quantum walks I: Reaction operators for radical pairs**  
 A. Chia, A. Gorecka, K. C. Tan, L. Pawela, P. Kurzynski, T. Paterek, D. Kaszlikowski  
 http://www.arxiv.org/abs/1506.04213  
 <blockquote>
@@ -192,7 +80,7 @@ Classical chemical kinetics use rate-equation models to describe how a reaction 
 
 ------
 
-**18.    Nonlinear Optical Galton Board: thermalization and continuous limit**  
+**8.    Nonlinear Optical Galton Board: thermalization and continuous limit**  
 Giuseppe Di Molfetta, Fabrice Debbasch, Marc Brachet  
 http://www.arxiv.org/abs/1506.04323  
 <blockquote>
@@ -203,30 +91,7 @@ The nonlinear optical Galton board (NLOGB), a quantum walk like (but nonlinear) 
 
 ------
 
-**19.    High-fidelity gate operations for quantum computing beyond dephasing time limits**  
-Alexandre M. Souza, Roberto S. Sarthour, Ivan S. Oliveira, Dieter Suter  
-http://www.arxiv.org/abs/1506.04593  
-<blockquote>
-<p>
-The implementation of quantum gates with fidelities that exceed the threshold for reliable quantum computing requires robust gates whose performance is not limited by the precision of the available control fields. The performance of these gates also should not be affected by the noisy environment of the quantum register. Here we use randomized benchmarking of quantum gate operations to compare the performance of different families of gates that compensate errors in the control field amplitudes and decouple the system from the environmental noise. We obtain average fidelities of up to 99.8\%, which exceeds the threshold value for some quantum error correction schemes as well as the expected limit from the dephasing induced by the environment.
-</p>
-</blockquote>
-
-------
-
-**20.    Sampling of bosonic qubits**  
-Vincenzo Tamma  
-Int. J. Quantum Inform., 12, 1560017 (2014)  
-http://www.arxiv.org/abs/1506.04948  
-<blockquote>
-<p>
-The boson sampling problem has brought a lot of attention in the quantum information field because it is not efficiently solvable with a classical computer; nonetheless it can be implemented with linear optical interferometers with single-boson sources. Recently, we introduced a more general problem, the multi-boson correlation sampling problem, which allows us to take advantage of the multi-mode spectral distribution of the bosonic sources together with time-correlated measurements in order to achieve sampling not only over the output ports of the interferometer but also over the joint detection times. This problem was analyzed for both single-photon sources and thermal sources. In this work, we demonstrate that it is possible to use single qubit bosonic sources in order to sample not only over the described "space-time" degree of freedom but also over all the possible exponential number of multi-qubit output states.
-</p>
-</blockquote>
-
-------
-
-**21.    Limited preparation contextuality in quantum theory and its relation to the Cirel'son bound**  
+**9.    Limited preparation contextuality in quantum theory and its relation to the Cirel'son bound**  
 Manik Banik, Some Sankar Bhattacharya, Amit Mukherjee, Arup Roy, Andris Ambainis, Ashutosh Rai  
 Phys. Rev. A 92, 030103(R) (2015)  
 http://www.arxiv.org/abs/1506.05174  
@@ -238,76 +103,8 @@ Kochen-Specker (KS) theorem lies at the heart of the foundations of quantum mech
 
 ------
 
-**22.    Ultra-fast quantum interface between a solid-state spin and a photon**  
-Shuo Sun, Hyochul Kim, Glenn S. Solomon, Edo Waks  
-http://www.arxiv.org/abs/1506.06036  
-<blockquote>
-<p>
-Strong interactions between single spins and photons are essential for quantum networks and distributed quantum computation. They provide the necessary interface for entanglement distribution, non-destructive quantum measurements, and strong photon-photon interactions. Achieving a spin-photon interface in a solid-state device could enable compact chip-integrated quantum circuits operating at gigahertz bandwidths. Many theoretical works have suggested using nanophotonic structures to attain this high-speed interface. These proposals exploit strong light-matter interactions to coherently switch a photon with a single spin embedded in a nanoscale cavity or waveguide. However, to date such an interface has not been experimentally realized using a solid-state spin system. Here, we report an experimental demonstration of a nanophotonic spin-photon quantum interface operating on picosecond timescales, where a single solid-state spin controls the quantum state of a photon and a single photon controls the state of the spin. We utilize an optical nano-cavity strongly coupled to a charged quantum dot containing a single trapped spin. We show that the spin-state strongly modulates the cavity reflection coefficient, which conditionally flips the polarization state of a reflected photon. We also demonstrate the complementary effect where a single photon applies a \pi\ phase shift on one of the spin-states, thereby coherently rotating the spin. These results demonstrate a spin-photon quantum phase gate that retains phase coherence, an essential requirement for quantum information applications. Our results open up a promising direction for solid-state implementations of quantum networks and quantum computers operating at gigahertz bandwidths.
-</p>
-</blockquote>
-
-------
-
-**23.    Direct dialling of Haar random unitary matrices**  
-Nicholas J. Russell, Jeremy L. O'Brien, Anthony Laing  
-http://www.arxiv.org/abs/1506.06220  
-<blockquote>
-<p>
-Random unitary matrices find a number of applications in quantum information science, and are central to the recently defined boson sampling algorithm for photons in linear optics. We describe an operationally simple method to directly implement Haar random unitary matrices on optical circuits, with no requirement for prior or explicit matrix calculations. Our physically-motivated and compact representation directly maps independent probability density functions for parameters in Haar random unitary matrices, to optical circuit components. We go on to extend the results to the case of random unitaries for qubits.
-</p>
-</blockquote>
-
-------
-
-**24.    Suppression of ac Stark shift scattering rate due to non-Markovian behavior**  
-Muzaffar Q. Lone, Tim Byrnes  
-Phys. Rev. A 92, 011401(R) 2015  
-http://www.arxiv.org/abs/1506.06934  
-<blockquote>
-<p>
-The ac Stark shift in the presence of spontaneous decay is typically considered to induce an effective dephasing with a scattering rate equal to $ \Gamma_s |\Omega|^2/\Delta^2 $, where $ \Gamma_s $ is the spontaneous decay rate, $ \Omega $ is the laser transition coupling, and $ \Delta $ is the detuning. We show that under realistic circumstances this dephasing rate may be strongly modifed due to non-Markovian behavior. The non-Markovian behavior arises due to an effective modification of the light-atom coupling in the presence of the ac Stark shift laser. An analytical formula for the non-Markovian ac Stark shift induced dephasing is derived. We obtain that for narrow laser linewidths the effective dephasing rate is suppressed by a factor of $ Q^2$, where $ Q $ is the quality factor of the laser.
-</p>
-</blockquote>
-
-------
-
-**25.    Optimal Encoding Capacity of a Linear Optical Quantum Channel**  
-Jake A. Smith, Dmitry B. Uskov, Lev Kaplan  
-Phys. Rev. A 92, 022324 (2015)  
-http://www.arxiv.org/abs/1506.07139  
-<blockquote>
-<p>
-Here, we study the capacity of a quantum channel, assuming linear optical encoding, as a function of available photons and optical modes. First, we observe that substantial improvement is made possible by not restricting ourselves to a rail-encoded qubit basis. Then, we derive an analytic formula for general channel capacity and show that this capacity is achieved without requiring the use of entangling operations typically required for scalable universal quantum computation, e.g. KLM measurement-assisted transformations. As an example, we provide an explicit encoding scheme using the resources required of standard dense coding using two dual-rail qubits (2 photons in 4 modes). In this case, our protocol encodes one additional bit of information. Greater gains are expected for larger systems.
-</p>
-</blockquote>
-
-------
-
-**26.    Quantum stochastic equations for an opto-mechanical oscillator with radiation pressure interaction and non-Markovian effects**  
-Alberto Barchielli  
-http://www.arxiv.org/abs/1506.07261  
-<blockquote>
-<p>
-The quantum stochastic Schroedinger equation or Hudson-Parthasareathy (HP) equation is a powerful tool to construct unitary dilations of quantum dynamical semigroups and to develop the theory of measurements in continuous time via the construction of output fields. An important feature of such an equation is that it allows to treat not only absorption and emission of quanta, but also scattering processes, which however had very few applications in physical modelling. Moreover, recent developments have shown that also some non-Markovian dynamics can be generated by suitable choices of the state of the quantum noises involved in the HP-equation. This paper is devoted to an application involving these two features, non-Markovianity and scattering process. We consider a micro-mirror mounted on a vibrating structure and reflecting a laser beam, a process giving rise to a radiation-pressure force on the mirror. We show that this process needs the scattering part of the HP-equation to be described. On the other side, non-Markovianity is introduced by the dissipation due to the interaction with some thermal environment which we represent by a phonon field, with a nearly arbitrary excitation spectrum, and by the introduction of phase noise in the laser beam. Finally, we study the full power spectrum of the reflected light and we show how the laser beam can be used as a temperature probe.
-</p>
-</blockquote>
-
-------
-
-**27.    Entangling the whole by beam splitting a part**  
-Callum Croal, Christian Peuntinger, Vanessa Chille, Christoph Marquardt, Gerd Leuchs, Natalia Korolkova, Ladislav Mi?ta Jr  
-http://www.arxiv.org/abs/1506.08001  
-<blockquote>
-<p>
-A beam splitter is a basic linear optical element appearing in many optics experiments and is frequently used as a continuous-variable entangler transforming a pair of input modes from a separable Gaussian state into an entangled state. However, a beam splitter is a passive operation that can create entanglement from Gaussian states only under certain conditions. One such condition is that the input light is squeezed. We demonstrate experimentally that a beam splitter can create entanglement even from modes which do not possess such a squeezing provided that they are correlated to but not entangled with a third mode. Specifically, we show that a beam splitter can create three-mode entanglement by acting on two modes of a three-mode fully separable Gaussian state without entangling the two modes themselves. This beam splitter property is a key mechanism behind the performance of the protocol for entanglement distribution by separable states. Moreover, the property also finds application in collaborative quantum dense coding in which decoding of transmitted information is assisted by interference with a mode of the collaborating party.
-</p>
-</blockquote>
-
-------
-
-**28.    Zak Phase in Discrete-Time Quantum Walks**  
-G. Puentes, O. Santillán  
+**10.    Zak Phase in Discrete-Time Quantum Walks**  
+G. Puentes, O. Santill��n  
 http://www.arxiv.org/abs/1506.08100  
 <blockquote>
 <p>
@@ -317,64 +114,7 @@ We report on a simple scheme that may present a non-trivial geometric Zak phase 
 
 ------
 
-**29.    Degenerate parametric oscillation in quantum membrane optomechanics**  
-Mónica Benito, Carlos Sánchez Mu?oz, Carlos Navarrete-Benlloch  
-http://www.arxiv.org/abs/1506.08157  
-<blockquote>
-<p>
-The promise of innovative applications has triggered the development of many modern technologies capable of exploiting quantum effects. But in addition to future applications, such quantum technologies have already provided us with the possibility of accessing quantum-mechanical scenarios that seemed unreachable just a few decades ago. With this spirit, in this work we show that modern optomechanical setups are mature enough to implement one of the most elusive models in the field of open system dynamics: degenerate parametric oscillation. The possibility of implementing it in nonlinear optical resonators was the main motivation for introducing such model in the eighties, which rapidly became a paradigm for the study of dissipative phase transitions whose corresponding spontaneously broken symmetry is discrete. However, it was found that the intrinsic multimode nature of optical cavities makes it impossible to experimentally study the model all the way through its phase transition. In contrast, here we show that this long-awaited model can be implemented in the motion of a mechanical object dispersively coupled to the light contained in a cavity, when the latter is properly driven with multi-chromatic laser light. We focus on membranes as the mechanical element, showing that the main signatures of the degenerate parametric oscillation model can be studied in state-of-the-art setups, thus opening the possibility of studying spontaneous symmetry breaking and enhanced metrology in one of the cleanest dissipative phase transitions.
-</p>
-</blockquote>
-
-------
-
-**30.    Quantum trajectories of superconducting qubits**  
-S. J. Weber, K. W. Murch, M. E. Schwartz, N. Roch, I. Siddiqi  
-http://www.arxiv.org/abs/1506.08165  
-<blockquote>
-<p>
-In this review, we discuss recent experiments that investigate how the quantum sate of a superconducting qubit evolves during measurement. We provide a pedagogical overview of the measurement process, when the qubit is dispersively coupled to a microwave frequency cavity, and the qubit state is encoded in the phase of a microwave tone that probes the cavity. A continuous measurement record is used to reconstruct the individual quantum trajectories of the qubit state, and quantum state tomography is performed to verify that the state has been tracked accurately. Furthermore, we discuss ensembles of trajectories, time-symmetric evolution, two-qubit trajectories, and potential applications in measurement-based quantum error correction.
-</p>
-</blockquote>
-
-------
-
-**31.    Harnessing non-Markovian quantum memory by environmental coupling**  
-Zhong-Xiao Man, Yun-Jie Xia, Rosario Lo Franco  
-Phys. Rev. A 92, 012315 (2015)  
-http://www.arxiv.org/abs/1506.08293  
-<blockquote>
-<p>
-Controlling the non-Markovian dynamics of open quantum systems is essential in quantum information technology since it plays a crucial role in preserving quantum memory. Albeit in many realistic scenarios the quantum system can simultaneously interact with composite environments, this condition remains little understood, particularly regarding the effect of the coupling between environmental parts. We analyze the non-Markovian behavior of a qubit interacting at the same time with two coupled single-mode cavities which in turn dissipate into memoryless or memory-keeping reservoirs. We show that increasing the control parameter, that is the two-mode coupling, allows for triggering and enhancing a non-Markovian dynamics for the qubit starting from a Markovian one in absence of coupling. Surprisingly, if the qubit dynamics is non-Markovian for zero control parameter, increasing the latter enables multiple transitions from non-Markovian to Markovian regimes. These results hold independently on the nature of the reservoirs. This work highlights that suitably engineering the coupling between parts of a compound environment can efficiently harness the quantum memory, stored in a qubit, based on non-Markovianity.
-</p>
-</blockquote>
-
-------
-
-**32.    Measurement-assisted Landau-Zener transitions**  
-A. N. Pechen, A. S. Trushechkin  
-Phys. Rev. A 91, 052316 (2015)  
-http://www.arxiv.org/abs/1506.08323  
-<blockquote>
-<p>
-Nonselective quantum measurements, i.e., measurements without reading the results, are often considered as a resource for manipulating quantum systems. In this work, we investigate optimal acceleration of the Landau-Zener (LZ) transitions by non-selective quantum measurements. We use the measurements of a population of a diabatic state of the LZ system at certain time instants as control and find the optimal time instants which maximize the LZ transition. We find surprising nonmonotonic behavior of the maximal transition probability with increase of the coupling parameter when the number of measurements is large. This transition probability gives an optimal approximation to the fundamental quantum Zeno effect (which corresponds to continuous measurements) by a fixed number of discrete measurements. The difficulty for the analysis is that the transition probability as a function of time instants has a huge number of local maxima. We resolve this problem both analytically by asymptotic analysis and numerically by the development of efficient algorithms mainly based on the dynamic programming. The proposed numerical methods can be applied, besides this problem, to a wide class of measurement-based optimal control problems.
-</p>
-</blockquote>
-
-------
-
-**33.    Quantum Annealing Implementation of Job-Shop Scheduling**  
-Davide Venturelli, Dominic J.J. Marchand, Galo Rojo  
-http://www.arxiv.org/abs/1506.08479  
-<blockquote>
-<p>
-A quantum annealing solver for the renowned job-shop scheduling problem (JSP) is presented in detail. After formulating the problem as a time-indexed quadratic unconstrained binary optimization problem, several pre-processing and graph embedding strategies are employed to compile optimally parametrized families of the JSP for scheduling instances of up to six jobs and six machines on the D-Wave Systems Vesuvius processor. Problem simplifications and partitioning algorithms, including variable pruning and running strategies that consider tailored binary searches, are discussed and the results from the processor are compared against state-of-the-art global-optimum solvers.
-</p>
-</blockquote>
-
-------
-
-**34.    Implementation of multidimensional quantum walks using linear optics and classical light**  
+**11.    Implementation of multidimensional quantum walks using linear optics and classical light**  
 Sandeep K. Goyal, Filippus S. Roux, Andrew Forbes, Thomas Konrad  
 Phys. Rev. A 92, 040302(R), (2015)  
 http://www.arxiv.org/abs/1506.08703  
@@ -386,121 +126,7 @@ Classical optics can be used to efficiently implement certain quantum informatio
 
 ------
 
-**35.    Quantum Bilinear Optimization**  
-Mario Berta, Omar Fawzi, Volkher B. Scholz  
-http://www.arxiv.org/abs/1506.08810  
-<blockquote>
-<p>
-We study optimization programs given by a bilinear form over noncommutative variables subject to linear inequalities. Problems of this form include the entangled value of two-prover games, entanglement assisted coding for classical channels and quantum-proof randomness extractors. We introduce an asymptotically converging hierarchy of efficiently computable semidefinite programming (SDP) relaxations for this quantum optimization. This allows us to give upper bounds on the quantum advantage for all of these problems. Compared to previous work of Pironio, Navascues and Acin, our hierarchy has additional constraints. By means of examples, we illustrate the importance of these new constraints both in practice and for analytical properties. Moreover, this allows us to give a hierarchy of SDP outer approximations for the completely positive semidefinite cone introduced by Laurent and Piovesan.
-</p>
-</blockquote>
-
-------
-
-**36.    Quantum Markov chains: description of hybrid systems, decidability of equivalence, and model checking linear-time properties**  
-Lvzhou Li, Yuan Feng  
-http://www.arxiv.org/abs/1506.08982  
-<blockquote>
-<p>
-In this paper, we study a model of quantum Markov chains that is a quantum analogue of Markov chains and is obtained by replacing probabilities in transition matrices with quantum operations. We show that this model is very suited to describe hybrid systems that consist of a quantum component and a classical one, although it has the same expressive power as another quantum Markov model proposed in the literature. Indeed, hybrid systems are often encountered in quantum information processing; for example, both quantum programs and quantum protocols can be regarded as hybrid systems. Thus, we further propose a model called hybrid quantum automata (HQA) that can be used to describe these hybrid systems that receive inputs (actions) from the outer world. We show the language equivalence problem of HQA is decidable in polynomial time. Furthermore, we apply this result to the trace equivalence problem of quantum Markov chains, and thus it is also decidable in polynomial time. Finally, we discuss model checking linear-time properties of quantum Markov chains, and show the quantitative analysis of regular safety properties can be addressed successfully.
-</p>
-</blockquote>
-
-------
-
-**37.    Generation of quantum steering and interferometric power in the Dynamical Casimir Effect**  
-Carlos Sabín, Gerardo Adesso  
-Phys. Rev. A 92, 042107 (2015)  
-http://www.arxiv.org/abs/1506.09001  
-<blockquote>
-<p>
-We analyse the role of the dynamical Casimir effect as a resource for quantum technologies, such as quantum cryptography and quantum metrology. In particular, we consider the generation of Einstein-Podolsky-Rosen steering and Gaussian interferometric power, two useful forms of asymmetric quantum correlations, in superconducting waveguides modulated by superconducting quantum interferometric devices. We show that, while a certain value of squeezing is required to overcome thermal noise and give rise to steering, any non-zero squeezing produces interferometric power which in fact increases with thermal noise.
-</p>
-</blockquote>
-
-------
-
-**38.    Absorption-based Quantum Communication with NV centres**  
-Burkhard Scharfenberger, Hideo Kosaka, William J. Munro, Kae Nemoto  
-http://www.arxiv.org/abs/1506.09036  
-<blockquote>
-<p>
-We propose a scheme for performing an entanglement-swapping operation within a quantum communications hub (a Bell like measurement) using an NV centre's $|\pm 1\rangle \leftrightarrow | A_2 \rangle$ optical transition. This is based on the heralded absorption of a photon resonant with that transition. The quantum efficiency of a single photon absorption is low but can be improved by placing the NV center inside a micro cavity to boost the interaction time and further by recycling the leaked photon back into the cavity after flipping its phase and/or polarisation. Throughout this process, the NV is repeatedly monitored via a QND measurement that heralds whether or not the photon absorption has succeeded. Upon success we know a destructive Bell measurement has occurred between that photon and NV center. Given low losses and a high per-pass absorption probability, this scheme allows the total success probability to approach unity. With long electron spin coherence times possible at low temperatures, this component could be useful within a memory-based quantum repeater or relay.
-</p>
-</blockquote>
-
-------
-
-**39.    Uniqueness regime for Markov dynamics on quantum lattice spin systems**  
-Nicholas Crawford, Wojciech De Roeck, Marius Schütz  
-J. Phys. A: Math. Theor. 48, 425203 (2015)  
-http://www.arxiv.org/abs/1506.00530  
-<blockquote>
-<p>
-We consider a lattice of weakly interacting quantum Markov processes. Without interaction, the dynamics at each site is relaxing exponentially to a unique stationary state. With interaction, we show that there remains a unique stationary state in the thermodynamic limit, i.e. absence of phase coexistence, and the relaxation towards it is exponentially fast for local observables. We do not assume that the quantum Markov process is reversible (detailed balance) w.r.t. a local Hamiltonian.
-</p>
-</blockquote>
-
-------
-
-**40.    Theoretical treatment of the interaction between two-level atoms and periodic waveguides**  
-Xiaorun Zang, Philippe Lalanne  
-Opt. Lett. 40, 3869-3872 (2015)  
-http://www.arxiv.org/abs/1506.01176  
-<blockquote>
-<p>
-Light transport in periodic waveguides coupled to a two-level atom is investigated. By using optical Bloch equations and a photonic modal formalism, we derive semi-analytical expressions for the scattering matrix of one atom trapped in a periodic waveguide. The derivation is general, as the expressions hold for any periodic photonic or plasmonic waveguides. It provides a basic building block to study collective effects arising from photon-mediated multi-atom interactions in periodic waveguides.
-</p>
-</blockquote>
-
-------
-
-**41.    Multi-reference approach to the calculation of photoelectron spectra including spin-orbit coupling**  
-Gilbert Grell, Sergey I. Bokarev, Bernd Winter, Robert Seidel, Emad F. Aziz, Saadullah G. Aziz, Oliver Kühn  
-http://www.arxiv.org/abs/1506.01826  
-<blockquote>
-<p>
-X-ray photoelectron spectra provide a wealth of information on the electronic structure. The extraction of molecular details requires adequate theoretical methods, which in case of transition metal complexes has to account for effects due to the multi-configurational and spin-mixed nature of the many-electron wave function. Here, the Restricted Active Space Self-Consistent Field method including spin-orbit coupling is used to cope with this challenge and to calculate valence and core photoelectron spectra. The intensities are estimated within the frameworks of the Dyson orbital formalism and the sudden approximation. Thereby, we utilize an efficient computational algorithm that is based on a biorthonormal basis transformation. The approach is applied to the valence photoionization of the gas phase water molecule and to the core ionization spectrum of the $\text{[Fe(H}_2\text{O)}_6\text{]}^{2+}$ complex. The results show good agreement with the experimental data obtained in this work, whereas the sudden approximation demonstrates distinct deviations from experiments.
-</p>
-</blockquote>
-
-------
-
-**42.    Sub- and supercritical defect scattering in Schr?dinger chains with higher-order hopping**  
-J. Stockhofe, P. Schmelcher  
-Phys. Rev. A 92, 023605 (2015)  
-http://www.arxiv.org/abs/1506.01937  
-<blockquote>
-<p>
-We theoretically analyze a discrete Schr\"odinger chain with hopping to the first and second neighbors, as can be realized with zigzag arrangements of optical waveguides or lattice sites for cold atoms. Already at moderate values, the second-neighbor hopping has a strong impact on the band structure, leading to the emergence of a new extremum located inside the band, accompanied by a van Hove singularity in the density of states. The energy band is then divided into a subcritical regime with the usual unique correspondence between wave number and energy of the travelling waves, and a supercritical regime, in which waves of different wave number are degenerate in energy. We study the consequences of these features in a scattering setup, introducing a defect that locally breaks the translational invariance. The notion of a local probability current is generalized beyond the nearest-neighbor approximation and bound states with energies outside the band are discussed. At subcritical energies inside the band, an evanescent mode coexists with the travelling plane wave, giving rise to resonance phenomena in scattering. At weak coupling to the defect, we identify a prototypical Fano-Feshbach resonance of tunable shape and provide analytical expressions for its profile parameters. At supercritical energies, we observe coupling of the degenerate travelling waves, leading to an intricate wave packet fragmentation dynamics. The corresponding branching ratios are analyzed.
-</p>
-</blockquote>
-
-------
-
-**43.    Electronic control of edge-mode spectrum of integer-hall-effect 2d electron waveguides**  
-Guennadi A. Kouzaev  
-http://www.arxiv.org/abs/1506.03294  
-<blockquote>
-<p>
-In this paper, the control of the edge-mode spectrum of integer-Hall-effect 2D waveguides by electric field is proposed and modeled. Under certain found conditions, the applied transversal electric field allows refining the modal spectrum from non-localized waves, and, additionally, it can switch the edge-mode from the propagating to the evanescent state, and it is interesting in the design of the edge-mode off and on logic components. These waveguides, arbitrary biased by potentials, are described by the Pauli spin-less charge equation and are simulated using the order reduction method of partial differential equations in its Kron quantum-circuit representation. Additionally to the spectrum control mechanism, the influence of strong-magnitude disorder of chemical potential and magnetic field on the edge localization and modal switching is studied to simulate the arisen-in-practice limitations on these effects.
-</p>
-</blockquote>
-
-------
-
-**44.    Quantum graphs as quantum relations**  
-Nik Weaver  
-http://www.arxiv.org/abs/1506.03892  
-<blockquote>
-<p>
-The "noncommutative graphs" which arise in quantum error correction are a special case of the quantum relations introduced in [N. Weaver, Quantum relations, Mem. Amer. Math. Soc. 215 (2012), v-vi, 81-140]. We use this perspective to interpret the Knill-Laflamme error-correction conditions [E. Knill and R. Laflamme, Theory of quantum error-correcting codes, Phys. Rev. A 55 (1997), 900-911] in terms of graph-theoretic independence, to give an intrinsic characterization of Stahlke's quantum graph homomorphisms [D. Stahlke, Quantum source-channel coding and non-commutative graph theory, arXiv:1405.5254], and to realize the quantum confusability graph associated to a quantum channel [R. Duan, S. Severini, and A. Winter, Zero-error communication via quantum channels, noncommutative graphs, and a quantum Lovasz number, IEEE Trans. Inform. Theory 59 (2013), 1164-1174] as the pushforward of a diagonal relation.
-</p>
-</blockquote>
-
-------
-
-**45.    Harnessing high-dimensional hyperentanglement through a biphoton frequency comb**  
+**12.    Harnessing high-dimensional hyperentanglement through a biphoton frequency comb**  
 Zhenda Xie, Tian Zhong, Sajan Shrestha, XinAn Xu, Junlin Liang, Yan-Xiao Gong, Joshua C. Bienfang, Alessandro Restelli, Jeffrey H. Shapiro, Franco N. C. Wong, Chee Wei Wong  
 http://www.arxiv.org/abs/1506.04231  
 <blockquote>
@@ -511,45 +137,12 @@ Quantum entanglement is a fundamental resource for secure information processing
 
 ------
 
-**46.    Separations in Query Complexity Based on Pointer Functions**  
+**13.    Separations in Query Complexity Based on Pointer Functions**  
 Andris Ambainis, Kaspars Balodis, Aleksandrs Belovs, Troy Lee, Miklos Santha, Juris Smotrovs  
 http://www.arxiv.org/abs/1506.04719  
 <blockquote>
 <p>
 In 1986, Saks and Wigderson conjectured that the largest separation between deterministic and zero-error randomized query complexity for a total boolean function is given by the function $f$ on $n=2^k$ bits defined by a complete binary tree of NAND gates of depth $k$, which achieves $R_0(f) = O(D(f)^{0.7537\ldots})$. We show this is false by giving an example of a total boolean function $f$ on $n$ bits whose deterministic query complexity is $\Omega(n/\log(n))$ while its zero-error randomized query complexity is $\tilde O(\sqrt{n})$. This shows that the relations $D(f) \le R_0(f)^2$ and $D(f) \le 2R_1(f)^2$ are optimal, up to poly-logarithmic factors. We further show that the quantum query complexity of the same function is $\tilde O(n^{1/4})$, giving the first example of a total function with a super-quadratic gap between its quantum and deterministic query complexities. Variations of this function give new separations between several other query complexity measures, including: the first super-linear separation between bounded-error and zero-error randomized complexity, larger gaps between exact quantum query complexity and deterministic/randomized query complexities, and a 4th power separation between approximate degree and bounded-error randomized complexity. All of these examples are variants of a function recently introduced by G\"{o}\"{o}s, Pitassi, and Watson which they used to separate the unambiguous 1-certificate complexity from deterministic query complexity and to resolve the famous Clique versus Independent Set problem in communication complexity.
-</p>
-</blockquote>
-
-------
-
-**47.    A quantum fiber-pigtail**  
-Davide Cadeddu, Jean Teissier, Floris Braakman, Niels Gregersen, Petr Stepanov, Jean-Michel Gérard, Julien Claudon, Richard J. Warburton, Martino Poggio, Mathieu Munsch  
-http://www.arxiv.org/abs/1506.06635  
-<blockquote>
-<p>
-We present the experimental realization of a quantum fiber-pigtail. The device consists of a semiconductor quantum-dot embedded into a conical photonic wire that is directly connected to the core of a fiber-pigtail. We demonstrate a photon collection efficiency at the output of the fiber of 5.8% and suggest realistic improvements for the implementation of a useful device in the context of quantum information. We finally discuss potential applications in scanning probe microscopy.
-</p>
-</blockquote>
-
-------
-
-**48.    Linear conic formulations for two-party correlations and values of nonlocal games**  
-Jamie Sikora, Antonios Varvitsiotis  
-http://www.arxiv.org/abs/1506.07297  
-<blockquote>
-<p>
-In this work we study the sets of two-party correlations generated from a Bell scenario involving two spatially separated systems with respect to various physical models. We show that the sets of classical, quantum, no-signaling and unrestricted correlations can be expressed as projections of affine sections of appropriate convex cones. As a by-product, we identify a spectrahedral outer approximation to the set of quantum correlations which is contained in the first level of the Navascu\'es, Pironio and Ac\'in (NPA) hierarchy and also a sufficient condition for the set of quantum correlations to be closed. Furthermore, by our conic formulations, the value of a nonlocal game over the sets of classical, quantum, no-signaling and unrestricted correlations can be cast as a linear conic program. This allows us to show that a semidefinite programming upper bound to the classical value of a nonlocal game introduced by Feige and Lov\'asz is in fact an upper bound to the quantum value of the game and moreover, it is at least as strong as optimizing over the first level of the NPA hierarchy. Lastly, we show that deciding the existence of a perfect quantum (resp. classical) strategy is equivalent to deciding the feasibility of a linear conic program over the cone of completely positive semidefinite matrices (resp. completely positive matrices). By specializing the results to synchronous nonlocal games, we recover the conic formulations for various quantum and classical graph parameters that were recently derived in the literature.
-</p>
-</blockquote>
-
-------
-
-**49.    A Super-Grover Separation Between Randomized and Quantum Query Complexities**  
-Shalev Ben-David  
-http://www.arxiv.org/abs/1506.08106  
-<blockquote>
-<p>
-We construct a total Boolean function $f$ satisfying $R(f)=\tilde{\Omega}(Q(f)^{5/2})$, refuting the long-standing conjecture that $R(f)=O(Q(f)^2)$ for all total Boolean functions. Assuming a conjecture of Aaronson and Ambainis about optimal quantum speedups for partial functions, we improve this to $R(f)=\tilde{\Omega}(Q(f)^3)$. Our construction is motivated by the G\"o\"os-Pitassi-Watson function but does not use it.
 </p>
 </blockquote>
 

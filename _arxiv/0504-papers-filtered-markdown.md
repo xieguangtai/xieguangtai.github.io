@@ -3,18 +3,7 @@ layout: arxiv
 title: 200504 Filtered arXiv Papers
 ---
 
-**1.    Probabilistic Model--Checking of Quantum Protocols**  
-Simon Gay, Rajagopal Nagarajan, Nikolaos Papanikolaou  
-http://arxiv.org/abs/quant-ph/0504007  
-<blockquote>
-<p>
-We establish fundamental and general techniques for formal verification of quantum protocols. Quantum protocols are novel communication schemes involving the use of quantum-mechanical phenomena for representation, storage and transmission of data. As opposed to quantum computers, quantum communication systems can and have been implemented using present-day technology; therefore, the ability to model and analyse such systems rigorously is of primary importance. While current analyses of quantum protocols use a traditional mathematical approach and require considerable understanding of the underlying physics, we argue that automated verification techniques provide an elegant alternative. We demonstrate these techniques through the use of PRISM, a probabilistic model-checking tool. Our approach is conceptually simpler than existing proofs, and allows us to disambiguate protocol definitions and assess their properties. It also facilitates detailed analyses of actual implemented systems. We illustrate our techniques by modelling a selection of quantum protocols (namely superdense coding, quantum teleportation, and quantum error correction) and verifying their basic correctness properties. Our results provide a foundation for further work on modelling and analysing larger systems such as those used for quantum cryptography, in which basic protocols are used as components.
-</p>
-</blockquote>
-
-------
-
-**2.    Quantum search algorithms**  
+**1.    Quantum search algorithms**  
 Andris Ambainis  
 SIGACT News, 35 (2):22-35, 2004.  
 http://arxiv.org/abs/quant-ph/0504012  
@@ -26,7 +15,7 @@ We review some of quantum algorithms for search problems: Grover's search algori
 
 ------
 
-**3.    Quantum Timing and Synchronization Problems**  
+**2.    Quantum Timing and Synchronization Problems**  
 Diego de Falco, Dario Tamascelli  
 International Journal of Modern Physics B, vol. 18, Nos, 4-5 (2004) 623-631  
 http://arxiv.org/abs/quant-ph/0504024  
@@ -38,19 +27,7 @@ Feynman's model of a quantum computer provides an example of a continuous-time q
 
 ------
 
-**4.    Higher order perturbation theory for decoherence in Grover's algorithm**  
-Hiroo Azuma  
-Phys. Rev. A 72, 042305 (2005); Phys. Rev. A 72, 049902(E) (2005)  
-http://arxiv.org/abs/quant-ph/0504033  
-<blockquote>
-<p>
-In this paper, we study decoherence in Grover's quantum search algorithm using a perturbative method. We assume that each two-state system (qubit) that belongs to a register suffers a phase flip error (\sigma_{z} error) with probability p independently at every step in the algorithm, where $0\leq p\leq 1$. Considering an n-qubit density operator to which Grover's iterative operation is applied M times, we expand it in powers of 2Mnp and derive its matrix element order by order under the large-n limit. [In this large-n limit, we assume p is small enough, so that 2Mnp can take any real positive value or zero. We regard $x\equiv 2Mnp(\geq 0)$ as a perturbative parameter.] We obtain recurrence relations between terms in the perturbative expansion. By these relations, we compute higher orders of the perturbation efficiently, so that we extend the range of the perturbative parameter that provides a reliable analysis. Calculating the matrix element numerically by this method, we derive the maximum value of the perturbative parameter x at which the algorithm finds a correct item with a given threshold of probability P_{th} or more. (We refer to this maximum value of x as x_{c}, a critical point of x.) We obtain a curve of x_{c} as a function of P_{th} by repeating this numerical calculation for many points of P_{th} and find the following facts: a tangent of the obtained curve at P_{th}=1 is given by x=(8/5)(1-P_{th}), and we have x_{c}>-(8/5)\log_{e}P_{th} near P_{th}=0.
-</p>
-</blockquote>
-
-------
-
-**5.    Entanglement in coined quantum walks on regular graphs**  
+**3.    Entanglement in coined quantum walks on regular graphs**  
 Ivens Carneiro, Meng Loo, Xibai Xu, Mathieu Girerd, Viv Kendon, Peter L. Knight  
 New J. Phys. 7 (2005) 156  
 http://arxiv.org/abs/quant-ph/0504042  
@@ -62,19 +39,7 @@ Quantum walks, both discrete (coined) and continuous time, form the basis of sev
 
 ------
 
-**6.    Error tolerance in an NMR Implementation of Grover's Fixed-Point Quantum Search Algorithm**  
-Li Xiao, Jonathan A. Jones  
-Phys. Rev. A 72, 032326 (2005)  
-http://arxiv.org/abs/quant-ph/0504054  
-<blockquote>
-<p>
-We describe an implementation of Grover's fixed-point quantum search algorithm on a nuclear magnetic resonance (NMR) quantum computer, searching for either one or two matching items in an unsorted database of four items. In this new algorithm the target state (an equally weighted superposition of the matching states) is a fixed point of the recursive search operator, and so the algorithm always moves towards the desired state. The effects of systematic errors in the implementation are briefly explored.
-</p>
-</blockquote>
-
-------
-
-**7.    From optimal measurement to efficient quantum algorithms for the hidden subgroup problem over semidirect product groups**  
+**4.    From optimal measurement to efficient quantum algorithms for the hidden subgroup problem over semidirect product groups**  
 Dave Bacon, Andrew M. Childs, Wim van Dam  
 Proc. 46th IEEE Symposium on Foundations of Computer Science (FOCS 2005), pp. 469-478  
 http://arxiv.org/abs/quant-ph/0504083  
@@ -86,7 +51,7 @@ We approach the hidden subgroup problem by performing the so-called pretty good 
 
 ------
 
-**8.    Statistical Properties of a Quantum Cellular Automaton**  
+**5.    Statistical Properties of a Quantum Cellular Automaton**  
 Norio Inui, Shuichi Inokuchi, Yoshihiro Mizoguchi, Norio Konno  
 http://arxiv.org/abs/quant-ph/0504104  
 <blockquote>
@@ -97,7 +62,7 @@ We study a quantum cellular automaton (QCA) whose time-evolution is defined from
 
 ------
 
-**9.    Quantum walks on directed graphs**  
+**6.    Quantum walks on directed graphs**  
 Ashley Montanaro  
 Quantum Information and Computation, vol. 7, no. 1 (2007)  
 http://arxiv.org/abs/quant-ph/0504116  
@@ -109,7 +74,7 @@ We consider the definition of quantum walks on directed graphs. Call a directed 
 
 ------
 
-**10.    Quantum random walk of the field in an externally driven cavity**  
+**7.    Quantum random walk of the field in an externally driven cavity**  
 G S Agarwal, P K Pathak  
 Phys. Rev. A 72, 033815 (2005).  
 http://arxiv.org/abs/quant-ph/0504135  
@@ -121,75 +86,7 @@ Using resonant interaction between atoms and the field in a high quality cavity,
 
 ------
 
-**11.    Bound states in continuum in an electron waveguide**  
-Kyungsun Na, Gonzalo Ordonez, Sungyun Kim  
-http://arxiv.org/abs/quant-ph/0504142  
-<blockquote>
-<p>
-It is shown that in a double-cavity, two-dimensional electron waveguide, the interplay between quasi-bound states of each cavity leads to the appearance of bound states in continuum for certain distances between the cavities. These bound states may be used to trap electrons in de-localized states distributed in both cavities.
-</p>
-</blockquote>
-
-------
-
-**12.    Quantum Message Exchange Based on Entanglement and Bell-State Measurements**  
-Sung Soon Jang, Hai-Woong Lee  
-http://arxiv.org/abs/quant-ph/0504182  
-<blockquote>
-<p>
-We propose a scheme by which two parties can secretely and simultaneously exchange messages. The scheme requires the two parties to share entanglement and both to perform Bell-state measurements. Only two out of the four Bell states are required to be distinguished in the Bell-state measurements, and thus the scheme is experimentally feasible using only linear optical means. Generalizations of the scheme to high-dimensional systems and to multipartite entanglement are considered. We show also that the proposed scheme works even if the two parties do not possess shared reference frames.
-</p>
-</blockquote>
-
-------
-
-**13.    Operator quantum error correction**  
-David W. Kribs, Raymond Laflamme, David Poulin, Maia Lesosky  
-Quant. Inf. & Comp., 6 (2006), 383-399.  
-http://arxiv.org/abs/quant-ph/0504189  
-<blockquote>
-<p>
-This paper is an expanded and more detailed version of our recent work in which the Operator Quantum Error Correction formalism was introduced. This is a new scheme for the error correction of quantum operations that incorporates the known techniques - i.e. the standard error correction model, the method of decoherence-free subspaces, and the noiseless subsystem method - as special cases, and relies on a generalized mathematical framework for noiseless subsystems that applies to arbitrary quantum operations. We also discuss a number of examples and introduce the notion of ``unitarily noiseless subsystems''.
-</p>
-</blockquote>
-
-------
-
-**14.    Error Correcting the Control Unit in Global Control Schemes**  
-Alastair Kay  
-http://arxiv.org/abs/quant-ph/0504197  
-<blockquote>
-<p>
-Recent studies of globally controlled structures have culminated in a theoretical demonstration that fault-tolerant quantum computation can be carried out on a one--dimensional chain with control over two global fields only. This required some patterns of classical states to localise operations, which were stabilised with the Zeno effect. However, it is impossible to achieve perfect stabilisation using this method, so error correction of these states is desirable, and is the focus this paper.
-</p>
-</blockquote>
-
-------
-
-**15.    Quantum measurement act as a "speech act"**  
-Jean Schneider  
-http://arxiv.org/abs/quant-ph/0504199  
-<blockquote>
-<p>
-I show that the quantum measurement problem can be understood if the measurement is seen as a ``speech act'' in the sense of modern language theory. The reduction of the state vector is in this perspective an intersubjectice -- or better a-subjective -- symbolic process. I then give some perspectives on applications to the ``Mind-Body problem''.
-</p>
-</blockquote>
-
-------
-
-**16.    Experimental reversion of the optimal quantum cloning and flipping processes**  
-Fabio Sciarrino, Veronica Secondi, Francesco De Martini  
-Phys. Rev. A 73, 040303 (R) (2006)  
-http://arxiv.org/abs/quant-ph/0504212  
-<blockquote>
-<p>
-The quantum cloner machine maps an unknown arbitrary input qubit into two optimal clones and one optimal flipped qubit. By combining linear and non-linear optical methods we experimentally implement a scheme that, after the cloning transformation, restores the original input qubit in one of the output channels, by using local measurements, classical communication and feedforward. This significant teleportation-like method demonstrates how the information is preserved during the cloning process. The realization of the reversion process is expected to find useful applications in the field of modern multi-partite quantum cryptography.
-</p>
-</blockquote>
-
-------
-
-**17.    From quantum graphs to quantum random walks**  
+**8.    From quantum graphs to quantum random walks**  
 Gregor Tanner  
 http://arxiv.org/abs/quant-ph/0504224  
 <blockquote>
@@ -200,19 +97,7 @@ We give a short overview over recent developments on quantum graphs and outline 
 
 ------
 
-**18.    Fourier's Law in a Quantum Spin Chain and the Onset of Quantum Chaos**  
-Carlos Mejia-Monasterio, Tomaz Prosen, Giulio Casati  
-Europhys. Lett. 72 (4), (2005) 520-526  
-http://arxiv.org/abs/cond-mat/0504181  
-<blockquote>
-<p>
-We study heat transport in a nonequilibrium steady state of a quantum interacting spin chain. We provide clear numerical evidence of the validity of Fourier law. The regime of normal conductivity is shown to set in at the transition to quantum chaos.
-</p>
-</blockquote>
-
-------
-
-**19.    Oracles Are Subtle But Not Malicious**  
+**9.    Oracles Are Subtle But Not Malicious**  
 Scott Aaronson  
 http://arxiv.org/abs/cs/0504048  
 <blockquote>
