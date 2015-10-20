@@ -12,30 +12,32 @@ categories: [research]
 
 ## Conferences
 
-1. [**ACM Symposium on Theory of Computing (STOC)**](http://www.sigact.org/stoc.html)
+1. [**ACM Symposium on Theory of Computing (STOC)**](http://www.sigact.org/stoc.html). Deadline in *November* of last year, notification in *Febrary*, conference in *June*.
+    * [2016](http://acm-stoc.org/stoc2016/)
     * [2015](http://acm-stoc.org/stoc2015/)
     * [2014](http://acm-stoc.org/stoc2014/)
-2. **[IEEE Symposium on Foundations of Computer Science (FOCS)]((http://ieee-focs.org/))**
+2. **[IEEE Symposium on Foundations of Computer Science (FOCS)]((http://ieee-focs.org/))**. Deadline in *April*, notification in *June*, conference in *October*.
     * [2015](http://focs15.simons.berkeley.edu/)
     * [2014](http://www.boazbarak.org/focs14/)
-3. **SIAM Symposium on Discrete Algorithms (SODA)**
+3. **SIAM Symposium on Discrete Algorithms (SODA)**. Deadline in *July* of last year, notification in *September* of last year, conference in *January*.
     * [2016](http://www.siam.org/meetings/da16/)
     * [2015](https://www.siam.org/meetings/da15/)
     * [2014](http://www.siam.org/meetings/da14/)
-3. **International Colloquium on Automata, Languages and Programming (ICALP)**
+3. **International Colloquium on Automata, Languages and Programming (ICALP)**. Deadline in *February*, notification in *April*, conference in *July*.
     * [2016](http://www.easyconferences.eu/icalp2016/)
     * [2015](http://www.kurims.kyoto-u.ac.jp/icalp2015/)
-4. **Conference on Quantum Information Processing (QIP)**
+4. **Conference on Quantum Information Processing (QIP)**. Deadline in *September* of last year, notification in *October* of last year, conference in *January*.
+    * [2016](http://ucalgary.ca/qip2016/)
     * [2015](http://www.quantum-lab.org/qip2015/index.php)
     * [2014](http://benasque.org/2014QIP/)
-5. **Asian Quantum Information Science Conference (AQIS)**
+5. **Asian Quantum Information Science Conference (AQIS)**. Deadline in *June*, notification in *July*, conference in *August*.
     * [2015](http://aqis-conf.org/2015/)
     * [2014](http://cs.e.yamagata-u.ac.jp/aqis14/)
     * [2013](https://www.imsc.res.in/~aqis13/)
-6. **International Conference on Quantum Communication, Measurement and Computing (QCMC)**, Biennial conference.
+6. **International Conference on Quantum Communication, Measurement and Computing (QCMC)**. Biennial conference. Deadline in *August*, notification in *September*, conference in *November*.
     * [2016](http://qcmc.quantumlah.org/)
     * [2014](http://qcmc2014.ustc.edu.cn/)
-7. **Theory of Quantum Computation, Communication and Cryptography (TQC)**
+7. **Theory of Quantum Computation, Communication and Cryptography (TQC)**. Deadline in *February*, notification in *March*, conference in *May*.
     * [2015](http://tqc2015.ulb.ac.be/)
     * [2014](http://tqc.quantumlah.org/)
 
