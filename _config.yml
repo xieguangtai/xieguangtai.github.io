@@ -13,7 +13,7 @@ collections:
 collections:
     arxiv:
         output: true
-        permalink: /project/:title.html
+        permalink: /project/arxiv/:title.html
 
 # Overriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
 safe: true
