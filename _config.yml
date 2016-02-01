@@ -9,11 +9,11 @@ timezone: Asia/Chongqing
 # Collections allow you to define a new type of document that behave like 
 #  Pages or Posts do normally, but also have their own unique properties and namespace.
 collections:
-- arxiv
-collections:
     arxiv:
         output: true
         permalink: /project/arxiv/:title.html
+        layout: arxiv
+#        permalink: /project/:title.html
 
 # Overriden by GitHub Pages: https://help.github.com/articles/using-jekyll-with-pages#configuring-jekyll
 safe: true

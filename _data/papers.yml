@@ -23,6 +23,14 @@
 # #  reconstruction hashing, outperforms several other state-ofthe-
 # #  art methods when tested on a few benchmark datasets.
 #####################################################################
+- author: Kun Wang, Nan Wu, Haixing Hu, Ping xu and Fangmin Song
+  url: http://arxiv.org/abs/1601.08122
+  title: Grover Walk on a Line with Absorbing Boundaries
+  year: 2016
+  notes: arXiv:1512.04016
+  publisher: to be submitted
+  supplement: Article
+
 - author: Kun Wang, Nan Wu, and Fangmin Song
   url: /files/papers/nctcs2015.pdf
   title: On Four Non-Computable Decision Problems
@@ -35,7 +43,7 @@
   url: http://www.jofcis.com/publishedpapers/2015_11_22_8395_8404.pdf
   title: On Four Non-Computable Decision Problems
   year: 2015
-  notes: This paper is recommended to be published in this journal in NCTCS 2015.
+  notes: This paper is recommended to be published in this journal by NCTCS 2015
   publisher: Journal of Computational Information Systems, Vol. 11 (22):8395-8404
   supplement: Article
 
