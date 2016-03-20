@@ -5,8 +5,35 @@
 # placedate: [place and date]
 # url: [download url] 
 # supplement: [talk supplement type, be 'Slide', 'Lecture', 'Broke' or 'Link'] 
-
 #####################################################################
+- title: Annual Summary and Tasks Assignment
+  placedate: Seminar held by quantum computing group and quantum optics group of NJU, January 22, 2016. This seminar was not offically announced, only the students from two groups participated.
+  supplement: Broke
+
+- title: Annual Summary
+  placedate: Seminar held by quantum computing group and quantum optics group of NJU, January 15, 2016.
+  url: /files/talks/20160115-annual-summary.pptx
+  supplement: Slide
+
+- title: Quantum Walks with Disorders
+  placedate: Seminar held by quantum computing group and quantum optics group of NJU, December 25, 2015.
+  url: /files/talks/20151225-quantum-walk-with-disorder.pptx
+  supplement: Slide
+
+- title: Quantum Walk with Restart (II)
+  placedate: Seminar held by quantum computing group and quantum optics group of NJU, December 3, 2015.
+  url: /files/talks/20151203-quantum-walk-with-restart.pptx
+  supplement: Slide
+
+- title: Summary of Recent Works
+  placedate: Seminar held by quantum computing group and quantum optics group of NJU, November 20, 2015.
+  supplement: Broke
+
+- title: Quantum Walk with Restart
+  placedate: Seminar held by quantum computing group and quantum optics group of NJU, November 4, 2015.
+  url: /files/talks/20151104-quantum-walk-with-restart.pdf
+  supplement: Slide
+
 - title: 请问您是海狸先生吗？
   placedate: National Conference on Theoretical Computer Science (NCTCS), November 1, 2015.
   url: /files/talks/20151101-on-four-non-computable-functions.pptx
