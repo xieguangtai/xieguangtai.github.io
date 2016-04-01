@@ -1,34 +1,23 @@
-#####################################################################
+###################################################################################################
 # This is the template for paper
-# - author: [author list]
+###################################################################################################
+# author: [author list]
 # url: [link to the papers]
 # title: [paper title]
-# role: [description]
+# role: [the role you have taken in this paper]
 # year: [year]
-# award: [Best Paper Runner-Up Award]
+# award: [the award that the paper received: best paper, runner-up award, etc.]
 # publisher: [journal name]
 # supplement: [paper supplement type, be 'Slide', 'Paper', or 'Link'] 
-# # abstract: >
-# #  Approximate nearest neighbor (ANN) search is becoming
-# #  an increasingly important technique in large-scale problems.
-# #  Recently many approaches have been developed due to fast
-# #  query and low storage cost. Although most of them have realized
-# #  the importance of the data structure, they neglected
-# #  the sparse relationship of the data. To build a balance between
-# #  the adjusted covariance matrix and the minimum reconstruction
-# #  error of data points, this paper proposes a novel
-# #  method based on sparse reconstruction to learn more compact
-# #  binary codes under l21-norm constraint. Experiments
-# #  demonstrate that the proposed method, named as sparse
-# #  reconstruction hashing, outperforms several other state-ofthe-
-# #  art methods when tested on a few benchmark datasets.
-#####################################################################
+# abstract: Here goes the paper's abstract.
+# !WARNING! Do not forget the '-' in the front of @auther indicator.
+###################################################################################################
 - author: Kun Wang, Nan Wu, Haixing Hu, Ping xu and Fangmin Song
   url: http://arxiv.org/abs/1601.08122
-  title: Grover Walk on a Line with Absorbing Boundaries
+  title: Grover Walks on a Line with Absorbing Boundaries
   year: 2016
   notes: arXiv:1601.08122
-  publisher: to be submitted
+  publisher: submitted to Journal of Quantum Information Processing
   supplement: Article
 
 - author: Kun Wang, Nan Wu, and Fangmin Song

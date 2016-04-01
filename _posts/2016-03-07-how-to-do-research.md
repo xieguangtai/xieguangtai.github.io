@@ -24,4 +24,5 @@ After the above three steps, there ain't that many papers left. What you have to
 
 ### How to Read Papers
 
-To be continued...
+In this stage I work with two softwares: [Zotero](https://www.zotero.org/), [MindManager](https://www.mindjet.com/mindmanager/), [PDF-XChange Editor](http://www.tracker-software.com/product/pdf-xchange-editor) and [Sumatra PDF](http://www.sumatrapdfreader.org/free-pdf-reader.html). 
+I prefer to take notes directly on the pdf. PDF-XChange Editor is enough for make notations, Sumatra PDF can open the same file while I am reading in PDF-XChange Editor. Whenever I read something interesting or worthy, I will excerpt it into the mindmanager, or Zotero notes. 

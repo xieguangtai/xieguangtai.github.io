@@ -1,9 +1,9 @@
-#####################################################################
+###################################################################################################
 # This is the template for famous quotations on quantum computation
-#####################################################################
+###################################################################################################
 # - creator: [quotation creator]
 #  content: [quotation content]
-#####################################################################
+###################################################################################################
 - creator: Richard P. Feynman
   content: Can physics be simulated by a universal computer? ... 
            the physical world is quantum mechanical, and therefore the proper problem 

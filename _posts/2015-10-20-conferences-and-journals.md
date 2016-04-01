@@ -12,7 +12,7 @@ categories: [research]
 
 ## Conferences
 
-1. [**ACM Symposium on Theory of Computing (STOC)**](http://www.sigact.org/stoc.html). Deadline in *November* of last year, notification in *Febrary*, conference in *June*.
+1. [**ACM Symposium on Theory of Computing (STOC)**](http://www.sigact.org/stoc.html). Deadline in *November* of last year, notification in *Febrary*, conference in *June*. A collection of all accepted papers sorted by year can be found [here](http://dblp.uni-trier.de/db/conf/stoc/index.html).
     * [2016](http://acm-stoc.org/stoc2016/)
     * [2015](http://acm-stoc.org/stoc2015/)
     * [2014](http://acm-stoc.org/stoc2014/)
@@ -34,20 +34,16 @@ categories: [research]
     * [1998](http://acm-stoc.org/stoc1998/)
     * [1997](http://acm-stoc.org/stoc1997/)
     * [1996](http://acm-stoc.org/stoc1996/)
-A collection of all accepted papers arranged by year can be found [here](http://dblp.uni-trier.de/db/conf/stoc/index.html).
-2. **[IEEE Symposium on Foundations of Computer Science (FOCS)]((http://ieee-focs.org/))**. Deadline in *April*, notification in *June*, conference in *October*.
+2. **[IEEE Symposium on Foundations of Computer Science (FOCS)]((http://ieee-focs.org/))**. Deadline in *April*, notification in *June*, conference in *October*. A collection of all accepted papers sorted by year can be found [here](http://dblp.uni-trier.de/db/conf/focs/index.html).
     * [2015](http://focs15.simons.berkeley.edu/)
     * [2014](http://www.boazbarak.org/focs14/)
-A collection of all accepted papers arranged by year can be found [here](http://dblp.uni-trier.de/db/conf/focs/index.html).
-3. **SIAM Symposium on Discrete Algorithms (SODA)**. Deadline in *July* of last year, notification in *September* of last year, conference in *January*.
+3. **SIAM Symposium on Discrete Algorithms (SODA)**. Deadline in *July* of last year, notification in *September* of last year, conference in *January*. A collection of all accepted papers sorted by year can be found [here](http://dblp.uni-trier.de/db/conf/soda/).
     * [2016](http://www.siam.org/meetings/da16/)
     * [2015](https://www.siam.org/meetings/da15/)
     * [2014](http://www.siam.org/meetings/da14/)
-A collection of all accepted papers arranged by year can be found [here](http://dblp.uni-trier.de/db/conf/soda/).
-3. **International Colloquium on Automata, Languages and Programming (ICALP)**. Deadline in *February*, notification in *April*, conference in *July*.
+3. **International Colloquium on Automata, Languages and Programming (ICALP)**. Deadline in *February*, notification in *April*, conference in *July*. A collection of all sorted papers arranged by year can be found [here](http://dblp.uni-trier.de/db/conf/icalp/).
     * [2016](http://www.easyconferences.eu/icalp2016/)
     * [2015](http://www.kurims.kyoto-u.ac.jp/icalp2015/)
-A collection of all accepted papers arranged by year can be found [here](http://dblp.uni-trier.de/db/conf/icalp/).
 4. **Conference on Quantum Information Processing (QIP)**. Deadline in *September* of last year, notification in *October* of last year, conference in *January*.
     * [2016](http://ucalgary.ca/qip2016/)
     * [2015](http://www.quantum-lab.org/qip2015/index.php)
