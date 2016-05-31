@@ -12,12 +12,12 @@
 # abstract: Here goes the paper's abstract.
 # !WARNING! Do not forget the '-' in the front of @auther indicator.
 ###################################################################################################
-- author: Kun Wang, Nan Wu, Haixing Hu, Ping xu and Fangmin Song
+- author: Kun Wang, Nan Wu, Parker Kuklinski, Haixing Hu, Ping Xu and Fangmin Song
   url: http://arxiv.org/abs/1601.08122
   title: Grover Walks on a Line with Absorbing Boundaries
   year: 2016
   notes: arXiv:1601.08122
-  publisher: submitted to Journal of Quantum Information Processing
+  publisher: accepted by Journal of Quantum Information Processing
   supplement: Article
 
 - author: Kun Wang, Nan Wu, and Fangmin Song
