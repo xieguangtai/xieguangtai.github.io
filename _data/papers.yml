@@ -13,11 +13,11 @@
 # !WARNING! Do not forget the '-' in the front of @auther indicator.
 ###################################################################################################
 - author: Kun Wang, Nan Wu, Parker Kuklinski, Haixing Hu, Ping Xu and Fangmin Song
-  url: http://arxiv.org/abs/1601.08122
+  url: http://link.springer.com/article/10.1007/s11128-016-1353-5
   title: Grover Walks on a Line with Absorbing Boundaries
   year: 2016
   notes: arXiv:1601.08122
-  publisher: accepted by Journal of Quantum Information Processing
+  publisher: Quantum Information Processing (2016): 1-25
   supplement: Article
 
 - author: Kun Wang, Nan Wu, and Fangmin Song
