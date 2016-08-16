@@ -6,6 +6,13 @@
 # url: [download url] 
 # supplement: [talk supplement type, be 'Slide', 'Lecture', 'Broke' or 'Link'] 
 ###################################################################################################
+- title: Grover Walks on a Line with Absorbing Boundaries
+  placedate: National Quantum Optics Conference 2016, Lanzhou, Gansu China.
+  url: /files/talks/20160807-three-state-quantum-walks.pptx
+  supplement: Slide
+
+
+
 - title: Oscillating Localization, Defects and Disorders
   placedate: Seminar held by quantum computing group and quantum optics group of NJU, March 15, 2016.
   url: /files/talks/20160315-oscillating-localization.pptx
